@@ -26,7 +26,7 @@ const projects = [
     id: "fashionclash-workshop",
     title: "Upcycling Workshop with FASHIONCLASH (2023)",
     images: [
-      { src: "/assets/images/fashion-clash-dress.jpeg", alt: "drawing of a fashion clash dress" },
+      { src: "/assets/images/fc-white-shirt.jpeg", alt: "drawing of a fashion clash dress" },
     ],
     poeticStatement: `Some things can’t be packed:
     Tears don’t fit in suitcases,
