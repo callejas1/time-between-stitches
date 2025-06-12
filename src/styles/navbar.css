@@ -1,0 +1,62 @@
+.nav {
+    position: sticky;
+    /* Makes the navbar sticky */
+    top: 0;
+    /* Sticks to the top of the viewport */
+    z-index: 1000;
+    /* Ensures it stays above other elements */
+    padding: 0.5rem 0.2rem;
+    color: #fff;
+    font-size: 16px;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Optional: subtle shadow for visibility */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    /* Combined transitions */
+    margin: 0;
+    padding: 0.5rem 2rem;
+    color: inherit;
+    /* Keeps the color consistent */
+}
+
+.nav-links a:visited {
+    color: #fff;
+    /* Prevent visited links from changing color */
+}
+
+.nav-links a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        /* Makes navbar stack vertically */
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .nav-links a {
+        padding: 0.5rem 1rem;
+        /* Adjust padding for smaller devices */
+    }
+}

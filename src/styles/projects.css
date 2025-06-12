@@ -1,0 +1,122 @@
+/* Main Page Styling */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+/* Projects Wrapper */
+.projects-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Projects Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* Create 12-column grid */
+    grid-gap: 1.5rem;
+    /* Add spacing between tiles */
+    grid-auto-rows: 300px;
+    /* Consistent card height */
+    width: 100%;
+}
+
+/* Individual Project Cards */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background: #ddd;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Prevent default anchor styles (no blue/purple links) */
+.project-card:link,
+.project-card:visited {
+    color: inherit;
+    /* Ensure text color doesn’t change */
+    text-decoration: none;
+    /* Remove underline or other styles */
+}
+
+/* Background Images */
+.project-background {
+    flex: 1;
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+
+/* Text Info Below Cards */
+.project-info {
+    padding: 0 0.5rem;
+    text-align: start;
+    background: #fff;
+}
+
+.project-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    /* Remove padding/margin from titles */
+}
+
+/* Custom Sizes for Specific Cards */
+.project-card-0 {
+    grid-column: span 6;
+    /* Half the grid width */
+}
+
+.project-card-1 {
+    grid-column: span 6;
+    /* Half the grid width */
+}
+
+.project-card-2 {
+    grid-column: span 4;
+    /* 1/3 of the grid */
+}
+
+.project-card-3 {
+    grid-column: span 8;
+    /* 2/3 of the grid */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(6, 1fr);
+        /* Switch to 6-column grid */
+    }
+
+    .project-card {
+        grid-column: span 6;
+        /* Each card takes half the grid width */
+        height: auto;
+        /* Allow cards to adjust height for content */
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        /* Single column for mobile screens */
+    }
+
+    .project-card {
+        grid-column: span 12;
+        /* Each card spans the full grid width */
+    }
+}

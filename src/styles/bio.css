@@ -1,0 +1,88 @@
+.artist-name {
+    font-size: 80px;
+    text-align: center;
+    font-family: "Rubik Dirt", system-ui, sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+/* Bio Page Layout */
+.bio-page {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.bio-content {
+    display: flex;
+    flex-direction: row;
+    /* Side-by-side layout on large screens */
+    gap: 2rem;
+    max-width: 1200px;
+    /* Limit overall bio content width */
+    width: 100%;
+    align-items: center;
+    /* Align text and image vertically */
+}
+
+/* Bio Text Section */
+.bio-text {
+    flex: 2;
+    font-family: "Rubik Dirt", system-ui, sans-serif;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.bio-text .artist-name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.bio-text .portfolio-title {
+    margin-bottom: 2rem;
+}
+
+.bio-text p {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Portrait Section */
+.bio-portrait {
+    flex: 1;
+    /* Take up 1/3 of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-portrait .bio-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bio-content {
+        flex-direction: column;
+        /* Stack portrait and text vertically */
+        align-items: center;
+        /* Center align content */
+    }
+
+    .bio-text {
+        text-align: center;
+        /* Center the text on smaller devices */
+        flex: none;
+        /* Take full width */
+    }
+
+    .bio-portrait .bio-image {
+        width: 80%;
+        /* Reduce image width on smaller screens */
+        max-height: 300px;
+    }
+}
