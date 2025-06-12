@@ -7,6 +7,14 @@
     gap: 2rem;
 }
 
+.artist-quote {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.6;
+    font-family: Georgia, serif;
+    text-align: left;
+}
+
 /* Projects Wrapper */
 .projects-wrapper {
     width: 100%;
@@ -66,11 +74,10 @@
     background: #fff;
 }
 
-.project-title {
+.project-card-title {
     font-size: 14px;
     font-weight: bold;
     margin: 0;
-    /* Remove padding/margin from titles */
 }
 
 /* Custom Sizes for Specific Cards */

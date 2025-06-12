@@ -1,12 +1,20 @@
 import { motion } from 'framer-motion';
 import projects from '../content/projects';
-import '../styles/projects.css';
+import '../styles/home.css';
 import artist from '../content/artist';
 
 function Home() {
   return (
     <div className="home-page">
-      <h1 className="rubik-dirt-regular artist-name">{artist.name}</h1>
+      <h1 className="rubik-dirt-regular artist-name">{ artist.name }</h1>
+      <blockquote className="artist-quote"> 
+        "Each stitch is a silence being torn open. <br/>
+        Between every thread, memory lingers. <br/>
+        This is not an archive of paper, <br />
+        but of garments, bodies, and absences. <br />
+        The time here is not measured in hours, <br/>
+        but in mourning, in thread, in movement."
+        </blockquote>
 
       {/* Projects Section */}
       <div className="projects-wrapper">
@@ -32,7 +40,7 @@ function Home() {
               />
               {/* Project Title */}
               <div className="project-info">
-                <h2 className="project-title">{project.title}</h2>
+                <h2 className="project-card-title">{project.title}</h2>
               </div>
             </motion.a>
           ))}

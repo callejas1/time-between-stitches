@@ -1,0 +1,71 @@
+/* General Page Layout */
+.project-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Rubik Dirt", system-ui, sans-serif;
+}
+
+/* Header Section */
+.project-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.project-subtitle {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Project Image */
+.project-image-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* Sections Below Image */
+.project-details,
+.project-poetic-statement,
+.project-collaborators {
+    margin-bottom: 2rem;
+}
+
+.project-details ul,
+.project-collaborators ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-details li,
+.project-collaborators li {
+    margin-bottom: 0.5rem;
+}
+
+.project-details strong {
+    font-weight: bold;
+}
+
+/* Poetic Statement */
+.project-poetic-statement p {
+    white-space: pre-wrap;
+    /* Preserve formatting for poetic lines */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-image {
+        width: 95%;
+    }
+}

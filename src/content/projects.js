@@ -5,13 +5,45 @@ const projects = [
     images: [
       { src: "/assets/images/sng.png", alt: "Suspended garment close-up" },
     ],
+    poeticStatement: `Some things can’t be packed:
+    Tears don’t fit in suitcases,
+    nor do the burned photographs left behind.
+    I stitch memories into clothes,
+    patching the empty spaces,
+    embroidering names no one speaks anymore.
+    I censor what I was told not to feel:
+    shame in the heart,
+    anger in the mouth,
+    hope on the forehead.
+    What I couldn’t carry
+    now hangs in front of me:
+    like bodies in transit,
+    like suspended memories,
+    like skin that never forgets.
+`    
   },
   {
-    id: "janchi-record",
-    title: "Project 2",
+    id: "fashionclash-workshop",
+    title: "Upcycling Workshop with FASHIONCLASH (2023)",
     images: [
       { src: "/assets/images/hor.png", alt: "Record player visual" },
     ],
+    poeticStatement: `Some things can’t be packed:
+    Tears don’t fit in suitcases,
+    nor do the burned photographs left behind.
+    I stitch memories into clothes,
+    patching the empty spaces,
+    embroidering names no one speaks anymore.
+    I censor what I was told not to feel:
+    shame in the heart,
+    anger in the mouth,
+    hope on the forehead.
+    What I couldn’t carry
+    now hangs in front of me:
+    like bodies in transit,
+    like suspended memories,
+    like skin that never forgets.
+`  
   },
   {
     id: "usual-supply",
@@ -19,6 +51,22 @@ const projects = [
     images: [
       { src: "/assets/images/sng.png", alt: "Typography background" },
     ],
+    poeticStatement: `Some things can’t be packed:
+    Tears don’t fit in suitcases,
+    nor do the burned photographs left behind.
+    I stitch memories into clothes,
+    patching the empty spaces,
+    embroidering names no one speaks anymore.
+    I censor what I was told not to feel:
+    shame in the heart,
+    anger in the mouth,
+    hope on the forehead.
+    What I couldn’t carry
+    now hangs in front of me:
+    like bodies in transit,
+    like suspended memories,
+    like skin that never forgets.
+`  
   },
   {
     id: "window-for-window",
@@ -26,6 +74,22 @@ const projects = [
     images: [
       { src: "/assets/images/hor.png", alt: "Architectural illustration" },
     ],
+    poeticStatement: `Some things can’t be packed:
+    Tears don’t fit in suitcases,
+    nor do the burned photographs left behind.
+    I stitch memories into clothes,
+    patching the empty spaces,
+    embroidering names no one speaks anymore.
+    I censor what I was told not to feel:
+    shame in the heart,
+    anger in the mouth,
+    hope on the forehead.
+    What I couldn’t carry
+    now hangs in front of me:
+    like bodies in transit,
+    like suspended memories,
+    like skin that never forgets.
+`  
   },
 ];
 
