@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&display=swap');
 
 html,
 body,
@@ -6,9 +6,9 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Rubik Dirt", system-ui;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: "Barriecito", system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: #f9f9f9;
   color: #222;
 }

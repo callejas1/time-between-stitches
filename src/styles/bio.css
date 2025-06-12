@@ -1,7 +1,7 @@
 .artist-name {
     font-size: 80px;
     text-align: center;
-    font-family: "Rubik Dirt", system-ui, sans-serif;
+    /* font-family: "Rubik Dirt", system-ui, sans-serif; */
     margin-bottom: 0.5rem;
 }
 
@@ -27,7 +27,7 @@
 /* Bio Text Section */
 .bio-text {
     flex: 2;
-    font-family: "Rubik Dirt", system-ui, sans-serif;
+    /* font-family: "Rubik Dirt", system-ui, sans-serif; */
     line-height: 1.8;
     text-align: left;
 }

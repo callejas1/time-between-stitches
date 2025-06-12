@@ -6,7 +6,7 @@ import artist from '../content/artist';
 function Home() {
   return (
     <div className="home-page">
-      <h1 className="rubik-dirt-regular artist-name">{ artist.name }</h1>
+      <h1 className="artist-name">{ artist.name }</h1>
       <blockquote className="artist-quote"> 
         "Each stitch is a silence being torn open. <br/>
         Between every thread, memory lingers. <br/>
