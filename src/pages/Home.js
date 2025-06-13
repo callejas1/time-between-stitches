@@ -15,6 +15,7 @@ function Home() {
         The time here is not measured in hours, <br/>
         but in mourning, in thread, in movement."
         </blockquote>
+        <h4 className='page-title-heading'>THE TIME BETWEEN STITCHES</h4>
 
       {/* Projects Section */}
       <div className="projects-wrapper">

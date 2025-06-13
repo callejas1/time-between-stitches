@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Rubik+Dirt&display=swap');
+
 .artist-name {
     font-size: 80px;
     text-align: center;
-    /* font-family: "Rubik Dirt", system-ui, sans-serif; */
+    font-family: "Rubik Dirt", system-ui, sans-serif;
     margin-bottom: 0.5rem;
 }
 

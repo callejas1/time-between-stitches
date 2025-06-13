@@ -19,8 +19,15 @@ const projects = [
     now hangs in front of me:
     like bodies in transit,
     like suspended memories,
-    like skin that never forgets.
-`    
+    like skin that never forgets.`,    
+    technicalDetails: {
+      numberOfGarments: 12,
+      materials: ["second-hand clothes", "thread", "embroidery", "textile fragments", "labels", "ribbons", "paper scraps"],
+      technique: "freehand embroidery, visible manual stitching, poetic interventions",
+      dimensions: "Garments hang at different heights, ranging between 150 cm and 200 cm from the ceiling, creating an immersive path",
+      installation: "suspended with fishing line or fine cord (nearly invisible), arranged like floating bodies or inhabited memories",
+      symbolism: "each garment represents a fragmented testimony, an absence, an untold story"
+    }
   },
   {
     id: "fashionclash-workshop",
@@ -28,22 +35,15 @@ const projects = [
     images: [
       { src: "/assets/images/fc-white-shirt.jpeg", alt: "drawing of a fashion clash dress" },
     ],
-    poeticStatement: `Some things can’t be packed:
-    Tears don’t fit in suitcases,
-    nor do the burned photographs left behind.
-    I stitch memories into clothes,
-    patching the empty spaces,
-    embroidering names no one speaks anymore.
-    I censor what I was told not to feel:
-    shame in the heart,
-    anger in the mouth,
-    hope on the forehead.
-    What I couldn’t carry
-    now hangs in front of me:
-    like bodies in transit,
-    like suspended memories,
-    like skin that never forgets.
-`  
+    poeticStatement: `poem placeholder`,
+    technicalDetails: {
+      numberOfGarments: 12,
+      materials: ["second-hand clothes", "thread", "embroidery", "textile fragments", "labels", "ribbons", "paper scraps"],
+      technique: "freehand embroidery, visible manual stitching, poetic interventions",
+      dimensions: "Garments hang at different heights, ranging between 150 cm and 200 cm from the ceiling, creating an immersive path",
+      installation: "suspended with fishing line or fine cord (nearly invisible), arranged like floating bodies or inhabited memories",
+      symbolism: "each garment represents a fragmented testimony, an absence, an untold story"
+    }
   },
   {
     id: "usual-supply",
@@ -51,7 +51,15 @@ const projects = [
     images: [
       { src: "/assets/images/double-design.jpeg", alt: "drawing of a fashion clash dress" },
     ],
-    poeticStatement: ``  
+    poeticStatement: ``,
+    technicalDetails: {
+      numberOfGarments: 12,
+      materials: ["second-hand clothes", "thread", "embroidery", "textile fragments", "labels", "ribbons", "paper scraps"],
+      technique: "freehand embroidery, visible manual stitching, poetic interventions",
+      dimensions: "Garments hang at different heights, ranging between 150 cm and 200 cm from the ceiling, creating an immersive path",
+      installation: "suspended with fishing line or fine cord (nearly invisible), arranged like floating bodies or inhabited memories",
+      symbolism: "each garment represents a fragmented testimony, an absence, an untold story"
+    }
   },
   {
     id: "window-for-window",
@@ -59,22 +67,15 @@ const projects = [
     images: [
       { src: "/assets/images/black-dress.jpeg", alt: "drawing of a black dress" },
     ],
-    poeticStatement: `Some things can’t be packed:
-    Tears don’t fit in suitcases,
-    nor do the burned photographs left behind.
-    I stitch memories into clothes,
-    patching the empty spaces,
-    embroidering names no one speaks anymore.
-    I censor what I was told not to feel:
-    shame in the heart,
-    anger in the mouth,
-    hope on the forehead.
-    What I couldn’t carry
-    now hangs in front of me:
-    like bodies in transit,
-    like suspended memories,
-    like skin that never forgets.
-`  
+    poeticStatement: `poem placeholder`,
+    technicalDetails: {
+      numberOfGarments: 12,
+      materials: ["second-hand clothes", "thread", "embroidery", "textile fragments", "labels", "ribbons", "paper scraps"],
+      technique: "freehand embroidery, visible manual stitching, poetic interventions",
+      dimensions: "Garments hang at different heights, ranging between 150 cm and 200 cm from the ceiling, creating an immersive path",
+      installation: "suspended with fishing line or fine cord (nearly invisible), arranged like floating bodies or inhabited memories",
+      symbolism: "each garment represents a fragmented testimony, an absence, an untold story"
+    }
   },
 ];
 
