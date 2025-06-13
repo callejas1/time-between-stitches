@@ -27,7 +27,7 @@ function Home() {
         >
           {projects?.map((project, index) => (
             <motion.a
-              href={`/projects/${project.id}`} // Make entire card clickable
+              href={`/${project.id}`} // Make entire card clickable
               key={`${project.id}-${index}`}
               className={`project-card project-card-${index}`}
               whileHover={{ scale: 1.05 }}
