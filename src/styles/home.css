@@ -25,11 +25,8 @@
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    /* Create 12-column grid */
     grid-gap: 1.5rem;
-    /* Add spacing between tiles */
     grid-auto-rows: 300px;
-    /* Consistent card height */
     width: 100%;
 }
 
@@ -59,9 +56,7 @@
 .project-card:link,
 .project-card:visited {
     color: inherit;
-    /* Ensure text color doesn’t change */
     text-decoration: none;
-    /* Remove underline or other styles */
 }
 
 /* Background Images */

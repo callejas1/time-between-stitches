@@ -11,7 +11,7 @@ function Project() {
   return (
     <div className="project-page">
       <header className="project-header">
-        <h1 className="project-title">{project.title}</h1>
+        <h1 className="project-title rubik">{project.title}</h1>
       </header>
 
       <div className="project-image-container">
@@ -25,18 +25,18 @@ function Project() {
       {/* Poetic Statement Section */}
       {project.poeticStatement && (
         <section className="project-poetic-statement">
-          <h2>Poetic Statement</h2>
+          <h2 className='rubik'>Poetic Statement</h2>
           <p>{project.poeticStatement}</p>
         </section>
       )}
 
       {/* Technical Details Section */}
       <section className="project-details">
-        <h2>Technical Details</h2>
+        <h2 className='rubik'>Technical Details</h2>
         <ul>
           {project.technicalDetails.materials?.length > 0 && (
             <li>
-              <strong>Materials:</strong>
+              <h4 className='rubik'>Materials:</h4>
               <ul>
                 {project.technicalDetails.materials.map((material, idx) => (
                   <li key={idx}>{material}</li>
@@ -44,11 +44,11 @@ function Project() {
               </ul>
             </li>
           )}
-          <li><strong>Number of Garments:</strong> {project.technicalDetails.numberOfGarments}</li>
-          <li><strong>Technique:</strong> {project.technicalDetails.technique}</li>
-          <li><strong>Dimensions:</strong> {project.technicalDetails.dimensions}</li>
-          <li><strong>Installation:</strong> {project.technicalDetails.installation}</li>
-          <li><strong>Symbolism:</strong> {project.technicalDetails.symbolism}</li>
+          <li> <p className='rubik'>Number of Garments</p>{project.technicalDetails.numberOfGarments}</li>
+          <li><p className='rubik'>Technique:</p> {project.technicalDetails.technique}</li>
+          <li><p className='rubik'>Dimensions</p>: {project.technicalDetails.dimensions}</li>
+          <li><p className='rubik'>Installation:</p> {project.technicalDetails.installation}</li>
+          <li> <p className='rubik'>Symbolism:</p> {project.technicalDetails.symbolism}</li>
         </ul>
       </section>
     </div>
