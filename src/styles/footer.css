@@ -17,13 +17,13 @@
 /* Footer Styling (same footer styles as before) */
 .footer {
     padding: 1rem 2rem;
+    margin-top: 5rem;
     background-color: #fff;
     font-size: 14px;
     border-top: 1px solid #ddd;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
-    /* Prevent padding from overflowing */
 }
 
 .footer-content {
