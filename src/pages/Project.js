@@ -1,6 +1,10 @@
 import { useParams } from 'react-router-dom';
 import projects from '../content/projects'; // Import the projects array
 import '../styles/project.css'; // Import project-specific styling
+import { Swiper, SwiperSlide } from 'swiper/react'; // Swiper components
+import 'swiper/css'; // Core Swiper styles
+import 'swiper/css/navigation'; // Navigation module styles
+import { Navigation } from 'swiper/modules'; // Optional module for Navigation Buttons
 
 function Project() {
   const { id } = useParams(); // Get the dynamic project ID from the URL
@@ -11,32 +15,44 @@ function Project() {
   return (
     <div className="project-page">
       <header className="project-header">
-        <h1 className="project-title rubik">{project.title}</h1>
+        <h1 className="project-title">{project.title}</h1>
       </header>
 
+      {/* Image Slider */}
       <div className="project-image-container">
-        <img
-          src={project.images[0]?.src}
-          alt={project.images[0]?.alt || "Project image"}
-          className="project-image"
-        />
+        <Swiper
+          modules={[Navigation]} // Enable navigation module
+          spaceBetween={16} // Space between slides
+          slidesPerView={1} // Show one slide at a time
+          navigation // Enable navigation buttons
+        >
+          {project.images.map((image, idx) => (
+            <SwiperSlide key={idx}>
+              <img
+                src={image.src}
+                alt={image.alt || `Project image ${idx + 1}`}
+                className="project-image"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
 
       {/* Poetic Statement Section */}
       {project.poeticStatement && (
         <section className="project-poetic-statement">
-          <h2 className='rubik'>Poetic Statement</h2>
+          <h2 >Poetic Statement</h2>
           <p>{project.poeticStatement}</p>
         </section>
       )}
 
       {/* Technical Details Section */}
       <section className="project-details">
-        <h2 className='rubik'>Technical Details</h2>
+        <h2>Technical Details</h2>
         <ul>
           {project.technicalDetails.materials?.length > 0 && (
             <li>
-              <h4 className='rubik'>Materials:</h4>
+              <h4>Materials:</h4>
               <ul>
                 {project.technicalDetails.materials.map((material, idx) => (
                   <li key={idx}>{material}</li>
@@ -44,11 +60,22 @@ function Project() {
               </ul>
             </li>
           )}
-          <li> <p className='rubik'>Number of Garments</p>{project.technicalDetails.numberOfGarments}</li>
-          <li><p className='rubik'>Technique:</p> {project.technicalDetails.technique}</li>
-          <li><p className='rubik'>Dimensions</p>: {project.technicalDetails.dimensions}</li>
-          <li><p className='rubik'>Installation:</p> {project.technicalDetails.installation}</li>
-          <li> <p className='rubik'>Symbolism:</p> {project.technicalDetails.symbolism}</li>
+          <li>
+            <p>Number of Garments</p>
+            {project.technicalDetails.numberOfGarments}
+          </li>
+          <li>
+            <p>Technique:</p> {project.technicalDetails.technique}
+          </li>
+          <li>
+            <p>Dimensions</p>: {project.technicalDetails.dimensions}
+          </li>
+          <li>
+            <p>Installation:</p> {project.technicalDetails.installation}
+          </li>
+          <li>
+            <p>Symbolism:</p> {project.technicalDetails.symbolism}
+          </li>
         </ul>
       </section>
     </div>

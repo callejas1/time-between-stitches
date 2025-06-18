@@ -83,14 +83,10 @@
 
     .bio-text {
         text-align: center;
-        /* Center the text on smaller devices */
         flex: none;
-        /* Take full width */
     }
 
     .bio-portrait .bio-image {
-        width: 80%;
-        /* Reduce image width on smaller screens */
-        max-height: 300px;
+        width: 100%;
     }
 }

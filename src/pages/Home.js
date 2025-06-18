@@ -5,7 +5,7 @@ import artist from '../content/artist';
 
 function Home() {
   return (
-    <div className="home-page">
+    <div id="first-heading" className="home-page">
       <h1 className="artist-name">{ artist.name }</h1>
       <blockquote className="artist-quote"> 
         "Each stitch is a silence being torn open. <br/>
@@ -41,7 +41,7 @@ function Home() {
               />
               {/* Project Title */}
               <div className="project-info">
-                <h2 className="project-card-title">{project.title}</h2>
+                <h2 className="project-card-title">{project.subtitle}</h2>
               </div>
             </motion.a>
           ))}

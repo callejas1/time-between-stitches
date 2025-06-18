@@ -1,9 +1,30 @@
 const projects = [
   {
     id: "what-i-couldnt-carry",
-    title: "What I Couldn’t Carry",
+    title: "Clothes as Memory, Repair as Resistance",
+    subtitle: "To wear memory, to mend the future.",
     images: [
-      { src: "/assets/images/blue-shirt.jpeg", alt: "Sketch of a blue shirt design" },
+      { src: "/assets/images/upcycled/blue-shirt.jpeg" },
+      { src: "/assets/images/upcycled/pants-floor.jpeg" },
+      { src: "/assets/images/upcycled/shirt-mirror.jpeg" },
+      { src: "/assets/images/upcycled/shirt-done.jpeg" },
+      { src: "/assets/images/upcycled/shirt-on.jpeg" },
+      { src: "/assets/images/upcycled/fashion-clash-dress.jpeg" },
+      { src: "/assets/images/upcycled/fc-side.jpg" },
+      {
+        src: "/assets/images/upcycled/fc-festival.jpg",
+        alt: "Fashion clash event - upcycled clothes"
+      },
+      { src: "/assets/images/upcycled/mirror-fc-stand.jpeg" },
+      { src: "/assets/images/upcycled/flower.png" },
+      // { src: "/assets/images/upcycled/double-design.jpeg"},
+      { src: "/assets/images/upcycled/flower-mirror.jpeg" },
+      { src: "/assets/images/upcycled/flower-light.jpeg" },
+      { src: "/assets/images/upcycled/flower-mirror-2.jpeg" },
+      { src: "/assets/images/upcycled/flower-stairs.jpeg" },
+      { src: "/assets/images/upcycled/flower-chest.jpeg" },
+      { src: "/assets/images/upcycled/flower-stairs-side.jpeg" },
+      
     ],
     poeticStatement: `Some things can’t be packed:
     Tears don’t fit in suitcases,
@@ -30,10 +51,27 @@ const projects = [
     }
   },
   {
-    id: "fashionclash-workshop",
-    title: "Upcycling Workshop with FASHIONCLASH (2023)",
+    id: "collages-and-paintings",
+    title: "Drawing Silence, Assembling Memory",
+    subtitle: "Drawing as listening, collaging as remembering.",
     images: [
-      { src: "/assets/images/fc-white-shirt.jpeg", alt: "drawing of a fashion clash dress" },
+      { src: "/assets/images/paintings/leaf-bunch.jpeg" },
+      { src: "/assets/images/paintings/collage.jpeg" },
+      { src: "/assets/images/paintings/colorful.jpeg" },
+      { src: "/assets/images/paintings/crystal-qr.jpeg" },
+      { src: "/assets/images/paintings/drawing-sun-trees.jpeg" },
+      { src: "/assets/images/paintings/IMG_0628.jpeg" },
+      { src: "/assets/images/paintings/IMG_1422.jpeg" },
+      { src: "/assets/images/paintings/IMG_1423.jpeg" },
+      // { src: "/assets/images/paintings/leaves.jpeg" },
+      { src: "/assets/images/paintings/light-bulbs.jpeg" },
+      { src: "/assets/images/paintings/partners-collage.jpeg" },
+      { src: "/assets/images/paintings/partners.jpeg" },
+      { src: "/assets/images/paintings/portrait-mirror.jpeg" },
+      { src: "/assets/images/paintings/portrait.jpeg" },
+      { src: "/assets/images/paintings/self-collage.jpeg" },
+      { src: "/assets/images/paintings/sunset.jpeg" },
+      { src: "/assets/images/paintings/trees.jpeg" },
     ],
     poeticStatement: `poem placeholder`,
     technicalDetails: {
@@ -46,10 +84,30 @@ const projects = [
     }
   },
   {
-    id: "usual-supply",
-    title: "Project 3",
+    id: "crafts",
+    title: "Hands that Shape, Matter that Speaks",
+    subtitle: "The hand knows what the words forget.",
     images: [
-      { src: "/assets/images/double-design.jpeg", alt: "drawing of a fashion clash dress" },
+      { src: "/assets/images/crafts/IMG_2235.jpeg" },
+      { src: "/assets/images/crafts/IMG_3359.jpeg" },
+      // { src: "/assets/images/crafts/abstract.jpeg" },
+      { src: "/assets/images/crafts/crafting.jpeg" },
+      { src: "/assets/images/crafts/faces-clay.jpeg" },
+      { src: "/assets/images/crafts/IMG_3358.jpeg" },
+      { src: "/assets/images/crafts/IMG_2232.jpeg" },
+      { src: "/assets/images/crafts/IMG_2233.jpeg" },
+      { src: "/assets/images/crafts/IMG_2234.jpeg" },
+      { src: "/assets/images/crafts/IMG_3353.jpeg" },
+      { src: "/assets/images/crafts/IMG_3357.jpeg" },
+      { src: "/assets/images/crafts/IMG_3360.jpeg" },
+      // { src: "/assets/images/crafts/IMG_9382.jpeg" },
+      { src: "/assets/images/crafts/IMG_9383.jpeg" },
+      { src: "/assets/images/crafts/IMG_9385.jpeg" },
+      { src: "/assets/images/crafts/IMG_E0259.jpeg" },
+      { src: "/assets/images/crafts/IMG_E0263.jpeg" },
+      { src: "/assets/images/crafts/OOLZ6624.jpeg" },
+      { src: "/assets/images/crafts/QEXL5587.jpeg" },
+      { src: "/assets/images/crafts/whiskers-jar.jpeg" },
     ],
     poeticStatement: ``,
     technicalDetails: {
@@ -63,9 +121,16 @@ const projects = [
   },
   {
     id: "window-for-window",
-    title: "Project 4",
+    title: "Embodied Stories, Lived Gestures",
+    subtitle: "The body as memory, the gesture as testimony.",
     images: [
-      { src: "/assets/images/black-dress.jpeg", alt: "drawing of a black dress" },
+      { src: "/assets/images/performances/runway-cover.jpeg" },
+      { src: "/assets/images/performances/selfie-models.jpeg" },
+      { src: "/assets/images/performances/IMG_2046.jpeg" },
+      { src: "/assets/images/performances/martin-walk.jpeg" },
+      { src: "/assets/images/performances/walk-dark.jpeg" },
+      { src: "/assets/images/performances/walk-behind.jpeg" },
+      
     ],
     poeticStatement: `poem placeholder`,
     technicalDetails: {
