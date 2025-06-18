@@ -1,14 +1,15 @@
 import { useParams } from 'react-router-dom';
-import projects from '../content/projects'; // Import the projects array
-import '../styles/project.css'; // Import project-specific styling
-import { Swiper, SwiperSlide } from 'swiper/react'; // Swiper components
-import 'swiper/css'; // Core Swiper styles
-import 'swiper/css/navigation'; // Navigation module styles
-import { Navigation } from 'swiper/modules'; // Optional module for Navigation Buttons
+import projects from '../content/projects';
+import '../styles/project.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation, Pagination } from 'swiper/modules';
 
 function Project() {
-  const { id } = useParams(); // Get the dynamic project ID from the URL
-  const project = projects.find((proj) => proj.id === id); // Find the project by ID
+  const { id } = useParams();
+  const project = projects.find((proj) => proj.id === id);
 
   if (!project) return <p>Project not found.</p>;
 
@@ -17,14 +18,13 @@ function Project() {
       <header className="project-header">
         <h1 className="project-title">{project.title}</h1>
       </header>
-
-      {/* Image Slider */}
       <div className="project-image-container">
         <Swiper
-          modules={[Navigation]} // Enable navigation module
-          spaceBetween={16} // Space between slides
-          slidesPerView={1} // Show one slide at a time
-          navigation // Enable navigation buttons
+          modules={[Navigation, Pagination]}
+          spaceBetween={16}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
         >
           {project.images.map((image, idx) => (
             <SwiperSlide key={idx}>
@@ -37,16 +37,12 @@ function Project() {
           ))}
         </Swiper>
       </div>
-
-      {/* Poetic Statement Section */}
       {project.poeticStatement && (
         <section className="project-poetic-statement">
-          <h2 >Poetic Statement</h2>
+          <h2>Poetic Statement</h2>
           <p>{project.poeticStatement}</p>
         </section>
       )}
-
-      {/* Technical Details Section */}
       <section className="project-details">
         <h2>Technical Details</h2>
         <ul>
