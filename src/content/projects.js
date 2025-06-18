@@ -55,6 +55,7 @@ const projects = [
     title: "Drawing Silence, Assembling Memory",
     subtitle: "Drawing as listening, collaging as remembering.",
     images: [
+      { src: "/assets/images/paintings/portrait.jpeg" },
       { src: "/assets/images/paintings/leaf-bunch.jpeg" },
       { src: "/assets/images/paintings/collage.jpeg" },
       { src: "/assets/images/paintings/colorful.jpeg" },
@@ -68,7 +69,6 @@ const projects = [
       { src: "/assets/images/paintings/partners-collage.jpeg" },
       { src: "/assets/images/paintings/partners.jpeg" },
       { src: "/assets/images/paintings/portrait-mirror.jpeg" },
-      { src: "/assets/images/paintings/portrait.jpeg" },
       { src: "/assets/images/paintings/self-collage.jpeg" },
       { src: "/assets/images/paintings/sunset.jpeg" },
       { src: "/assets/images/paintings/trees.jpeg" },
@@ -88,6 +88,7 @@ const projects = [
     title: "Hands that Shape, Matter that Speaks",
     subtitle: "The hand knows what the words forget.",
     images: [
+      { src: "/assets/images/crafts/IMG_3360.jpeg" },
       { src: "/assets/images/crafts/IMG_2235.jpeg" },
       { src: "/assets/images/crafts/IMG_3359.jpeg" },
       // { src: "/assets/images/crafts/abstract.jpeg" },
@@ -99,7 +100,6 @@ const projects = [
       { src: "/assets/images/crafts/IMG_2234.jpeg" },
       { src: "/assets/images/crafts/IMG_3353.jpeg" },
       { src: "/assets/images/crafts/IMG_3357.jpeg" },
-      { src: "/assets/images/crafts/IMG_3360.jpeg" },
       // { src: "/assets/images/crafts/IMG_9382.jpeg" },
       { src: "/assets/images/crafts/IMG_9383.jpeg" },
       { src: "/assets/images/crafts/IMG_9385.jpeg" },
@@ -124,8 +124,8 @@ const projects = [
     title: "Embodied Stories, Lived Gestures",
     subtitle: "The body as memory, the gesture as testimony.",
     images: [
-      { src: "/assets/images/performances/runway-cover.jpeg" },
       { src: "/assets/images/performances/selfie-models.jpeg" },
+      { src: "/assets/images/performances/runway-cover.jpeg" },
       { src: "/assets/images/performances/IMG_2046.jpeg" },
       { src: "/assets/images/performances/martin-walk.jpeg" },
       { src: "/assets/images/performances/walk-dark.jpeg" },

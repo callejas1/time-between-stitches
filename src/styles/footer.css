@@ -1,26 +1,20 @@
-/* Main layout container */
 .layout {
     display: flex;
     flex-direction: column;
-    /* Stack items vertically (Navbar, Content, Footer) */
     min-height: 100vh;
-    /* Full viewport height */
     width: 100%;
 }
 
-/* Main content area */
 .content {
     flex: 1;
-    /* Pushes the footer to the bottom if content is short */
 }
 
-/* Footer Styling (same footer styles as before) */
 .footer {
     padding: 1rem 2rem;
     margin-top: 5rem;
-    background-color: #fff;
+    background-color: #000;
     font-size: 14px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #4f4c4c;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
@@ -50,7 +44,7 @@
 }
 
 .footer-links {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-size: 24px;
     display: flex;
@@ -64,12 +58,13 @@
 }
 
 .footer-logos {
-    color: #fff;
+    color: #000;
     border-radius: 50%;
     padding: 0.25rem;
 }
 
 .insta-logo {
+    color: #fff;
     background: linear-gradient(45deg,
             #f09433 0%,
             #e6683c 25%,
@@ -79,12 +74,14 @@
 }
 
 .email-logo {
+    color: #fff;
     background: linear-gradient(135deg,
             #00C6FF 0%,
             #0072FF 100%);
 }
 
 .footer-info.name {
+    color: #fff;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -92,6 +89,7 @@
 }
 
 .footer-right-info {
+    color: #fff;
     display: flex;
     gap: 2rem;
     align-items: center;

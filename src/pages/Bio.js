@@ -32,7 +32,7 @@ function Bio() {
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.4 }}
         >
           <img
-            src="/assets/images/fashion-clash-dress.jpeg"
+            src="/assets/images/sng.png"
             alt="Portrait of Martin Callejas"
             className="bio-image"
           />
