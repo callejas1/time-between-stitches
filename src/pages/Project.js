@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import projects from "../content/projects";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -7,7 +7,6 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import "../styles/project.css";
 import { useState } from "react";
-import { IoIosArrowBack } from 'react-icons/io';
 import Breadcrumb from '../components/Breadcrumb';
 
 function Project() {
