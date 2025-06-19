@@ -7,6 +7,18 @@
 .category-header {
     text-align: center;
     margin-bottom: 3rem;
+    position: relative;
+}
+
+.project-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+}
+
+.project-description {
+    line-height: 1.6;
+    font-family: Georgia, serif;
 }
 
 .subprojects-grid {
@@ -16,6 +28,7 @@
 }
 
 .subproject-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,12 +38,17 @@
     height: 250px;
     overflow: hidden;
     text-decoration: none;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease;
 }
 
 .subproject-card:hover {
     transform: scale(1.03);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .subproject-image {
@@ -38,31 +56,46 @@
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform 0.3s ease;
 }
 
-.subproject-title {
+.image-overlay {
     position: absolute;
-    bottom: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.subproject-card:hover .image-overlay {
+    opacity: 1;
+}
+
+
+.image-text {
+    font-size: 16px;
     color: #fff;
+    font-family: Georgia, serif;
     padding: 0.5rem 1rem;
-    font-size: 14px;
-    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .back-button {
     position: absolute;
-    top: 4rem;
-    left: 0;
+    top: -10px;
+    left: 10px;
     font-family: Georgia, serif;
-    font-size: 18px;
-    color: #000;    
+    font-size: 16px;
+    color: #555;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
     transition: color 0.2s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .back-button:hover {
