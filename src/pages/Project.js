@@ -46,11 +46,11 @@ function Project() {
       <section className="project-details">
         <h2>Technical Details</h2>
         <ul>
-          {project.technicalDetails.materials?.length > 0 && (
+          {project.technicalDetails?.materials?.length > 0 && (
             <li>
               <h4>Materials:</h4>
               <ul>
-                {project.technicalDetails.materials.map((material, idx) => (
+                {project?.technicalDetails?.materials?.map((material, idx) => (
                   <li key={idx}>{material}</li>
                 ))}
               </ul>
@@ -58,19 +58,19 @@ function Project() {
           )}
           <li>
             <p>Number of Garments</p>
-            {project.technicalDetails.numberOfGarments}
+            {project.technicalDetails?.numberOfGarments}
           </li>
           <li>
-            <p>Technique:</p> {project.technicalDetails.technique}
+            <p>Technique:</p> {project.technicalDetails?.technique}
           </li>
           <li>
-            <p>Dimensions</p>: {project.technicalDetails.dimensions}
+            <p>Dimensions</p>: {project.technicalDetails?.dimensions}
           </li>
           <li>
-            <p>Installation:</p> {project.technicalDetails.installation}
+            <p>Installation:</p> {project.technicalDetails?.installation}
           </li>
           <li>
-            <p>Symbolism:</p> {project.technicalDetails.symbolism}
+            <p>Symbolism:</p> {project.technicalDetails?.symbolism}
           </li>
         </ul>
       </section>
