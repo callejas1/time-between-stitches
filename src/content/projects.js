@@ -163,7 +163,7 @@ const projects = [
       {
         parentId: "performances",
         id: "performance-1",
-        mainImage: "/assets/images/performances/martin-walk.jpeg",
+        mainImage: "/assets/images/performances/selfie-models.jpeg",
         images: [
           { src: "/assets/images/performances/selfie-models.jpeg" },
           { src: "/assets/images/performances/runway-cover.jpeg" },

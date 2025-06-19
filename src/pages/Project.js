@@ -22,7 +22,7 @@ function Project() {
   const handleSlideChange = (swiper) => {
     const activeSlideIndex = swiper.activeIndex;
     const activeImage = subproject.images[activeSlideIndex];
-    setCurrentDescription(activeImage?.description || ""); // Update description dynamically
+    setCurrentDescription(activeImage?.description || "");
   };
 
   return (
@@ -37,7 +37,7 @@ function Project() {
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
-          onSlideChange={handleSlideChange} // Update description on slide change
+          onSlideChange={handleSlideChange}
         >
           {subproject.images.map((image, idx) => (
             <SwiperSlide key={idx}>
@@ -51,9 +51,7 @@ function Project() {
         </Swiper>
       </div>
       {currentDescription && (
-        // <div className="image-description-container">
-          <p className="image-description">{currentDescription}</p>
-        // </div>
+        <p className="image-description">{currentDescription}</p>
       )}
     </div>
   );
