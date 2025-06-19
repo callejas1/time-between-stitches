@@ -194,15 +194,24 @@ const projects = [
         description: "Fashion Clash 2024 - Paula Dischinger",
         mainImage: "/assets/images/performances/selfie-models.jpeg",
         images: [
-          { src: "/assets/images/performances/selfie-models.jpeg" },
-          { src: "/assets/images/performances/mirror-pic.jpg" },
-          { src: "/assets/images/performances/runway-cover.jpeg" },
-          { src: "/assets/images/performances/martin-walk.jpeg" },
-          { src: "/assets/images/performances/walk-dark.jpeg" },
-          { src: "/assets/images/performances/walk-behind.jpeg" },
-          { src: "/assets/images/performances/martin-all-red.jpg" },
-          { src: "/assets/images/performances/posing-martin.jpg" },
-          { src: "/assets/images/performances/all-red-again.jpg" },
+          { src: "/assets/images/performances/selfie-models.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
+          { src: "/assets/images/performances/mirror-pic.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival`},
+          { src: "/assets/images/performances/runway-cover.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
+          { src: "/assets/images/performances/martin-walk.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival`},
+          { src: "/assets/images/performances/walk-dark.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
+          { src: "/assets/images/performances/walk-behind.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
+          { src: "/assets/images/performances/martin-all-red.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
+          { src: "/assets/images/performances/posing-martin.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
+          { src: "/assets/images/performances/all-red-again.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
         ],
       },
       {
