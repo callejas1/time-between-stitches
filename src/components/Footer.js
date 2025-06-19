@@ -29,7 +29,7 @@ function Footer() {
                     <p className='footer-info name'>{artist.name}</p>
                     <div className='footer-right-info'>
                         <p className='footer-info'>Maastricht, NL</p>
-                        <p className='footer-info'>&copy; {new Date().getFullYear()}</p>
+                        <p className='footer-info'>Created By Yos Callejas &copy; {new Date().getFullYear()}</p>
                     </div>
                 </div>
             </div>
