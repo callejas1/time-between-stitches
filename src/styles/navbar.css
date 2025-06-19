@@ -29,8 +29,8 @@
 }
 
 .nav-links a:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 .dropdown-projects {
@@ -44,6 +44,11 @@
     font-size: 16px;
     color: inherit;
     font-family: "Barriecito", system-ui;
+}
+
+.dropdown-button:hover {
+    background-color: #fff;
+    color: #000; 
 }
 
 .dropdown-menu {

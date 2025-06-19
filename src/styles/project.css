@@ -46,6 +46,9 @@
     width: 35px;
     height: 35px;
     color: #000 !important;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
     opacity: 0.9;
     display: flex;
     justify-content: center;

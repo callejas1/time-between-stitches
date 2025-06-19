@@ -44,8 +44,8 @@ const projects = [
         mainImage: "/assets/images/upcycled/double-design.jpeg" ,
         images: [
         
+          { src: "/assets/images/upcycled/double-design.jpeg"},
           { src: "/assets/images/upcycled/flower.png" },
-          // { src: "/assets/images/upcycled/double-design.jpeg"},
           { src: "/assets/images/upcycled/flower-mirror.jpeg" },
           { src: "/assets/images/upcycled/flower-light.jpeg" },
           { src: "/assets/images/upcycled/flower-mirror-2.jpeg" },
@@ -99,9 +99,9 @@ const projects = [
         id: "sunset-trees",
         mainImage: "/assets/images/paintings/IMG_1423.jpeg",
         images: [
+          { src: "/assets/images/paintings/IMG_1423.jpeg" },
           { src: "/assets/images/paintings/IMG_1422.jpeg" },
           { src: "/assets/images/paintings/drawing-sun-trees.jpeg" },
-          { src: "/assets/images/paintings/IMG_1423.jpeg" },
         ]
       },
       {
@@ -190,24 +190,45 @@ const projects = [
     subprojects: [
       {
         parentId: "performances",
-        id: "performance-1",
+        id: "human-herd",
         description: "Fashion Clash 2024 - Paula Dischinger",
         mainImage: "/assets/images/performances/selfie-models.jpeg",
         images: [
           { src: "/assets/images/performances/selfie-models.jpeg" },
+          { src: "/assets/images/performances/mirror-pic.jpg" },
           { src: "/assets/images/performances/runway-cover.jpeg" },
           { src: "/assets/images/performances/martin-walk.jpeg" },
           { src: "/assets/images/performances/walk-dark.jpeg" },
           { src: "/assets/images/performances/walk-behind.jpeg" },
+          { src: "/assets/images/performances/martin-all-red.jpg" },
+          { src: "/assets/images/performances/posing-martin.jpg" },
+          { src: "/assets/images/performances/all-red-again.jpg" },
         ],
       },
       {
         parentId: "performances",
-        id: "performance-2",
+        id: "Hartwerk-BOM-2024",
         description: "Buurt Opera Malperthuis by Opera Zuid",
-        mainImage: "/assets/images/performances/IMG_2046.jpeg",
+        mainImage: "/assets/images/performances/martin-standalone.jpg",
         images: [
+          { src: "/assets/images/performances/martin-standalone.jpg" },
+          { src: "/assets/images/performances/all-reading.jpg" },
+          { src: "/assets/images/performances/bricks.jpg" },
           { src: "/assets/images/performances/IMG_2046.jpeg" },
+          { src: "/assets/images/performances/martin-sweater.jpg" },
+          { src: "/assets/images/performances/all-bowing.jpeg" },
+        ]
+      },
+      {
+        parentId: "performances",
+        id: "mensen-dragen-mensen",
+        description: "Mensen Dragen Mensen - Heiligdomsvaart Maastricht 2025 - Fashion Clash",
+        mainImage: "/assets/images/performances/m-d-m.jpg",
+        images: [
+          { src: "/assets/images/performances/m-d-m.jpg" },
+          { src: "/assets/images/performances/flag.jpeg" },
+          { src: "/assets/images/performances/carry-me.jpg" },
+
         ]
       }
     ]
