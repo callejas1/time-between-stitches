@@ -70,6 +70,8 @@ const projects = [
         images: [
           { src: "/assets/images/paintings/portrait.jpeg" },
           { src: "/assets/images/paintings/portrait-mirror.jpeg" },
+          { src: "/assets/images/paintings/self-collage.jpeg" },
+          { src: "/assets/images/paintings/IMG_0628.jpeg" },
         ],
       },
       {
@@ -77,8 +79,9 @@ const projects = [
         id: "drawing-2",
         mainImage: "/assets/images/paintings/partners.jpeg",
         images: [
-          { src: "/assets/images/paintings/partners-collage.jpeg" },
           { src: "/assets/images/paintings/partners.jpeg" },    
+          { src: "/assets/images/paintings/partners-collage.jpeg" },
+          { src: "/assets/images/paintings/collage.jpeg", description: "Textured collage showing fragments of a constructed memory." },    
         ],
       },
       {
@@ -87,25 +90,50 @@ const projects = [
         mainImage: "/assets/images/paintings/leaf-bunch.jpeg",
         images: [
           { src: "/assets/images/paintings/leaf-bunch.jpeg" },
-          { src: "/assets/images/paintings/sunset.jpeg" },
           { src: "/assets/images/paintings/trees.jpeg" },
-          { src: "/assets/images/paintings/collage.jpeg", description: "Textured collage showing fragments of memory." },    
+          { src: "/assets/images/paintings/leaves.jpeg" },
         ]
       },
       {
         parentId:"collages-and-paintings",
         id: "drawing-4",
+        mainImage: "/assets/images/paintings/IMG_1423.jpeg",
+        images: [
+          { src: "/assets/images/paintings/IMG_1422.jpeg" },
+          { src: "/assets/images/paintings/drawing-sun-trees.jpeg" },
+          { src: "/assets/images/paintings/IMG_1423.jpeg" },
+        ]
+      },
+      {
+        parentId:"collages-and-paintings",
+        id: "drawing-5",
         mainImage: "/assets/images/paintings/colorful.jpeg",
         images: [
           { src: "/assets/images/paintings/colorful.jpeg" },
+        ]
+      },
+      {
+        parentId:"collages-and-paintings",
+        id: "drawing-6",
+        mainImage: "/assets/images/paintings/crystal-qr.jpeg",
+        images: [
           { src: "/assets/images/paintings/crystal-qr.jpeg" },
-          { src: "/assets/images/paintings/drawing-sun-trees.jpeg" },
-          { src: "/assets/images/paintings/IMG_0628.jpeg" },
-          { src: "/assets/images/paintings/IMG_1422.jpeg" },
-          { src: "/assets/images/paintings/IMG_1423.jpeg" },
-          // { src: "/assets/images/paintings/leaves.jpeg" },
+        ]
+      },
+      {
+        parentId:"collages-and-paintings",
+        id: "drawing-7",
+        mainImage: "/assets/images/paintings/light-bulbs.jpeg" ,
+        images: [
           { src: "/assets/images/paintings/light-bulbs.jpeg" },
-          { src: "/assets/images/paintings/self-collage.jpeg" },
+        ]
+      },
+      {
+        parentId:"collages-and-paintings",
+        id: "drawing-8",
+        mainImage: "/assets/images/paintings/sunset.jpeg" ,
+        images: [
+          { src: "/assets/images/paintings/sunset.jpeg" },
         ]
       },
     ],
@@ -163,6 +191,7 @@ const projects = [
       {
         parentId: "performances",
         id: "performance-1",
+        description: "Fashion Clash 2024 - Paula Dischinger",
         mainImage: "/assets/images/performances/selfie-models.jpeg",
         images: [
           { src: "/assets/images/performances/selfie-models.jpeg" },
@@ -175,6 +204,7 @@ const projects = [
       {
         parentId: "performances",
         id: "performance-2",
+        description: "Buurt Opera Malperthuis by Opera Zuid",
         mainImage: "/assets/images/performances/IMG_2046.jpeg",
         images: [
           { src: "/assets/images/performances/IMG_2046.jpeg" },

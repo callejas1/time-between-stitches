@@ -49,3 +49,22 @@
     font-size: 14px;
     border-radius: 4px;
 }
+
+.back-button {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: #000;    
+    text-decoration: none;
+    padding: 1rem;
+    transition: color 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button:hover {
+    color: #000;
+}
