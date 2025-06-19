@@ -12,15 +12,13 @@
 .project-title {
     font-size: 36px;
     font-weight: bold;
+    margin: 0 0 1rem 0;
 }
 
 .project-description {
-    font-size: 16px;
-    font-style: italic;
     line-height: 1.6;
     font-family: Georgia, serif;
-    text-align: center;
-    margin: 4rem 18rem;
+    margin: 4rem;
 }
 
 .project-image-container {
@@ -31,7 +29,6 @@
     margin-bottom: 2rem;
 }
 
-/* Image Styling */
 .project-image {
     max-width: 80%;
     max-height: 50vh;
@@ -40,7 +37,6 @@
     display: block;
 }
 
-/* Swiper Navigation: Fix Arrow Placement */
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
@@ -64,7 +60,6 @@
     right: 25%;
 }
 
-/* Arrow Hover Effect */
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
     opacity: 1;
@@ -81,37 +76,10 @@
     opacity: 1;
 }
 
-.project-poetic-statement {
-    margin-bottom: 2rem;
+.image-description {
+    text-align: center;
 }
 
-.project-poetic-statement h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.project-details {
-    margin-bottom: 2rem;
-}
-
-.project-details ul {
-    list-style: none;
-    padding: 0;
-}
-
-.project-details ul ul {
-    list-style: disc;
-    padding-left: 2rem;
-}
-
-.project-details h4 {
-    font-weight: bold;
-}
-
-.project-details li p {
-    margin: 0;
-}
 
 @media (max-width: 768px) {
     .project-description {

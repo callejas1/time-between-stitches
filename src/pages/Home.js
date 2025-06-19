@@ -34,7 +34,7 @@ function Home() {
               <div
                 className="project-background"
                 style={{
-                  backgroundImage: `url(${project.images[0]?.src})`,
+                  backgroundImage: `url(${project.cover})`,
                 }}
               />
               <div className="project-info">
