@@ -11,6 +11,7 @@
     line-height: 1.6;
     font-family: Georgia, serif;
     text-align: left;
+    margin: 0;
 }
 
 .projects-wrapper {
@@ -40,7 +41,7 @@
 
 .page-title-heading {
     font-size: 25px;
-    margin-bottom: 0px;
+    margin: 2rem 0;
 }
 
 .project-card:hover {
@@ -61,7 +62,6 @@
     background-position: top 50% right 25%;
 }
 
-/* Text Info Below Cards */
 .project-info {
     padding: 0 0.5rem;
     text-align: start;

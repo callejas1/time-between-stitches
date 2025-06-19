@@ -8,7 +8,7 @@ const projects = [
     subprojects: [
       {
         parentId: "garments",
-        id: "garment-1",
+        id: "upcycled-jean-shirt",
         mainImage: "/assets/images/upcycled/shirt-done.jpeg",
         images: [
           {
@@ -26,7 +26,7 @@ const projects = [
       },
       {
         parentId: "garments",
-        id: "garment-2",
+        id: "fashion-clash-festival",
         mainImage: "/assets/images/upcycled/fc-festival.jpg",
         images: [
           { src: "/assets/images/upcycled/fashion-clash-dress.jpeg"},
@@ -40,7 +40,7 @@ const projects = [
       },
       {
         parentId: "garments",
-        id: "garment-3",
+        id: "flower-blouse",
         mainImage: "/assets/images/upcycled/double-design.jpeg" ,
         images: [
         
@@ -65,7 +65,7 @@ const projects = [
     subprojects: [
       {
         parentId:"collages-and-paintings",
-        id: "drawing-1",
+        id: "portrait",
         mainImage: "/assets/images/paintings/portrait.jpeg",
         images: [
           { src: "/assets/images/paintings/portrait.jpeg" },
@@ -76,7 +76,7 @@ const projects = [
       },
       {
         parentId:"collages-and-paintings",
-        id: "drawing-2",
+        id: "love-birds",
         mainImage: "/assets/images/paintings/partners.jpeg",
         images: [
           { src: "/assets/images/paintings/partners.jpeg" },    
@@ -86,7 +86,7 @@ const projects = [
       },
       {
         parentId:"collages-and-paintings",
-        id: "drawing-3",
+        id: "leaf-collage",
         mainImage: "/assets/images/paintings/leaf-bunch.jpeg",
         images: [
           { src: "/assets/images/paintings/leaf-bunch.jpeg" },
@@ -96,7 +96,7 @@ const projects = [
       },
       {
         parentId:"collages-and-paintings",
-        id: "drawing-4",
+        id: "sunset-trees",
         mainImage: "/assets/images/paintings/IMG_1423.jpeg",
         images: [
           { src: "/assets/images/paintings/IMG_1422.jpeg" },
@@ -106,7 +106,7 @@ const projects = [
       },
       {
         parentId:"collages-and-paintings",
-        id: "drawing-5",
+        id: "abstract",
         mainImage: "/assets/images/paintings/colorful.jpeg",
         images: [
           { src: "/assets/images/paintings/colorful.jpeg" },
@@ -114,7 +114,7 @@ const projects = [
       },
       {
         parentId:"collages-and-paintings",
-        id: "drawing-6",
+        id: "watercolor-crystal",
         mainImage: "/assets/images/paintings/crystal-qr.jpeg",
         images: [
           { src: "/assets/images/paintings/crystal-qr.jpeg" },
@@ -122,7 +122,7 @@ const projects = [
       },
       {
         parentId:"collages-and-paintings",
-        id: "drawing-7",
+        id: "light-bulb-inspo",
         mainImage: "/assets/images/paintings/light-bulbs.jpeg" ,
         images: [
           { src: "/assets/images/paintings/light-bulbs.jpeg" },
@@ -130,7 +130,7 @@ const projects = [
       },
       {
         parentId:"collages-and-paintings",
-        id: "drawing-8",
+        id: "sunset-painting",
         mainImage: "/assets/images/paintings/sunset.jpeg" ,
         images: [
           { src: "/assets/images/paintings/sunset.jpeg" },
@@ -147,7 +147,7 @@ const projects = [
     subprojects: [
       {
         parentId: "crafts",
-        id: "craft-1",
+        id: "faces-and-whiskers",
         mainImage: "/assets/images/crafts/IMG_3360.jpeg",
         images: [
           { src: "/assets/images/crafts/IMG_3360.jpeg" },
@@ -161,7 +161,7 @@ const projects = [
       },
       {
         parentId: "crafts",
-        id: "craft-2",
+        id: "chalk-crafts",
         mainImage: "/assets/images/crafts/IMG_2235.jpeg",
         images: [
           { src: "/assets/images/crafts/IMG_2235.jpeg" },

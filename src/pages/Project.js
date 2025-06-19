@@ -8,6 +8,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import "../styles/project.css";
 import { useState } from "react";
 import { IoIosArrowBack } from 'react-icons/io';
+import Breadcrumb from '../components/Breadcrumb';
 
 function Project() {
   const { categoryId, subprojectId } = useParams();
@@ -28,8 +29,8 @@ function Project() {
 
   return (
     <div className="project-page">
+      <Breadcrumb />
       <header className="project-header">
-      <Link to={`/${categoryId}`} className="back-button"> <IoIosArrowBack /> Back</Link>
         <h1 className="project-title">{project.title}</h1>
       </header>
       <div className="project-image-container">

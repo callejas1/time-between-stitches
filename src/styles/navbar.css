@@ -29,6 +29,66 @@
 }
 
 .nav-links a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.dropdown-projects {
+    position: relative;
+}
+
+.dropdown-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: inherit;
+    font-family: "Barriecito", system-ui;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #000;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1px;
+}
+
+.dropdown-projects:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 0.5rem 0;
+    display: block;
+}
+
+.dropdown-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
     background-color: #fff;
-    color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dropdown-menu a:hover::after {
+    transform: scaleX(1);
+}
+
+@media (max-width: 768px) {
+    .dropdown-button {
+        margin-right: 2rem;
+    }
 }

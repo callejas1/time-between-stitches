@@ -6,18 +6,13 @@
     font-family: "Rubik Dirt", system-ui, sans-serif;
     font-weight: 100;
     font-style: normal;
-    margin-bottom: 0.5rem;
+    margin: 4rem 0 2rem 0;
 }
 
 .bio-page {
     display: flex;
     justify-content: center;
-    padding: 2rem;
-}
-
-.bio-name {
-    font-size: 42px;
-    text-align: center;
+    margin: 2rem;
 }
 
 .bio-content {
@@ -67,9 +62,7 @@
 @media (max-width: 768px) {
     .bio-content {
         flex-direction: column;
-        /* Stack portrait and text vertically */
         align-items: center;
-        /* Center align content */
     }
 
     .bio-text {

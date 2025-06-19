@@ -10,17 +10,6 @@
     position: relative;
 }
 
-.project-title {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0 0 1rem 0;
-}
-
-.project-description {
-    line-height: 1.6;
-    font-family: Georgia, serif;
-}
-
 .subprojects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
