@@ -31,7 +31,7 @@ function Bio() {
         >
           <img
             src="/assets/images/sng.png"
-            alt="Portrait of Martin Callejas"
+            alt="Portrait of Martin Callejas Neyra"
             className="bio-image"
           />
         </motion.div>
