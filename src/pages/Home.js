@@ -17,7 +17,6 @@ function Home() {
         </blockquote>
         <h4 className='page-title-heading'>THE TIME BETWEEN STITCHES</h4>
 
-      {/* Projects Section */}
       <div className="projects-wrapper">
         <motion.div
           className="projects-grid"
@@ -27,19 +26,17 @@ function Home() {
         >
           {projects?.map((project, index) => (
             <motion.a
-              href={`/${project.id}`} // Make entire card clickable
+              href={`/${project.id}`} 
               key={`${project.id}-${index}`}
               className={`project-card project-card-${index}`}
               whileHover={{ scale: 1.05 }}
             >
-              {/* Background image */}
               <div
                 className="project-background"
                 style={{
                   backgroundImage: `url(${project.images[0]?.src})`,
                 }}
               />
-              {/* Project Title */}
               <div className="project-info">
                 <h2 className="project-card-title">{project.subtitle}</h2>
               </div>

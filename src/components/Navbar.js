@@ -1,8 +1,8 @@
-import { Link, useLocation } from 'react-router-dom'; // Minimal imports
-import '../styles/navbar.css'; // Styling
+import { Link, useLocation } from 'react-router-dom'; 
+import '../styles/navbar.css';
 
 function Navbar() {
-  const location = useLocation(); // Get current path
+  const location = useLocation(); 
 
   const handleHomeClick = (e) => {
     if (location.pathname === "/") {
@@ -10,8 +10,8 @@ function Navbar() {
       const heading = document.getElementById("first-heading"); 
       if (heading) {
         heading.scrollIntoView({
-          behavior: "smooth", // Enable smooth scrolling
-          block: "start", // Align to the top of the viewport
+          behavior: "smooth", 
+          block: "start", 
         });
       }
     } 
@@ -22,7 +22,6 @@ function Navbar() {
       <div className="nav-links-wrapper">
         <ul className="nav-links">
           <li>
-            {/* Home button: Scroll or Navigate */}
             <Link to="/" onClick={handleHomeClick}>
               Home
             </Link>

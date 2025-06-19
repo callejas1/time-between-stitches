@@ -11,7 +11,6 @@ function Bio() {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <div className="bio-content">
-        {/* Artist Bio Section */}
         <motion.div
           className="bio-text"
           initial={{ opacity: 0 }}
@@ -24,7 +23,6 @@ function Bio() {
 
         </motion.div>
 
-        {/* Artist Portrait Section */}
         <motion.div
           className="bio-portrait"
           initial={{ opacity: 0 }}

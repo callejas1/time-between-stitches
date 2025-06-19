@@ -29,11 +29,11 @@
     display: block;
 }
 
-/* Swiper Navigation Arrows */
 .swiper-button-next,
 .swiper-button-prev {
-    color: rgb(10, 10, 10) !important;
+    color: #000 !important;
     opacity: 0.8;
+    margin: 0;
 }
 
 .swiper-button-next:hover,
@@ -43,14 +43,13 @@
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-    font-size: 24px !important;}
-
-/* Swiper Pagination Dots */
-.swiper-pagination-bullet {
-    background: rgb(8, 113, 234) !important;
+    font-size: 24px !important;
 }
 
-/* Poetic Statement Section */
+.swiper-pagination-bullet {
+    background: #fff !important;
+}
+
 .project-poetic-statement {
     margin-bottom: 2rem;
 }
@@ -61,7 +60,6 @@
     margin-bottom: 1rem;
 }
 
-/* Technical Details Section */
 .project-details {
     margin-bottom: 2rem;
 }
@@ -84,7 +82,6 @@
     margin: 0;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .project-image {
         max-width: 100%;

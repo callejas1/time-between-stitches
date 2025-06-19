@@ -6,9 +6,15 @@ const projects = [
     description: "In these works, garments are not just fashion—they are intimate containers of stories, migration, survival, and care. I engage in upcycling as a ritual: mending not only fabric, but wounds; deconstructing fast-fashion logic and reimagining the body as an archive. Each intervention is an act of remembrance and resistance, stitched with the hope that what is broken can become whole in new, unexpected ways.",
     images: [
       { src: "/assets/images/upcycled/blue-shirt.jpeg" },
-      { src: "/assets/images/upcycled/pants-floor.jpeg" },
+      {
+        src: "/assets/images/upcycled/pants-floor.jpeg",
+        description: "A delicate approach to upcycling and functional design."
+      },
       { src: "/assets/images/upcycled/shirt-mirror.jpeg" },
-      { src: "/assets/images/upcycled/shirt-done.jpeg" },
+      {
+        src: "/assets/images/upcycled/shirt-done.jpeg",
+        description: "A finished garment emphasizes care and repair."
+      },
       { src: "/assets/images/upcycled/shirt-on.jpeg" },
       { src: "/assets/images/upcycled/fashion-clash-dress.jpeg" },
       { src: "/assets/images/upcycled/fc-side.jpg" },
@@ -59,7 +65,7 @@ const projects = [
     images: [
       { src: "/assets/images/paintings/portrait.jpeg" },
       { src: "/assets/images/paintings/leaf-bunch.jpeg" },
-      { src: "/assets/images/paintings/collage.jpeg" },
+      { src: "/assets/images/paintings/collage.jpeg", description: "Textured collage showing fragments of memory." },
       { src: "/assets/images/paintings/colorful.jpeg" },
       { src: "/assets/images/paintings/crystal-qr.jpeg" },
       { src: "/assets/images/paintings/drawing-sun-trees.jpeg" },

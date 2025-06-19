@@ -4,12 +4,11 @@
     font-size: 80px;
     text-align: center;
     font-family: "Rubik Dirt", system-ui, sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-style: normal;
     margin-bottom: 0.5rem;
 }
 
-/* Bio Page Layout */
 .bio-page {
     display: flex;
     justify-content: center;
@@ -24,19 +23,14 @@
 .bio-content {
     display: flex;
     flex-direction: row;
-    /* Side-by-side layout on large screens */
     gap: 2rem;
     max-width: 1200px;
-    /* Limit overall bio content width */
     width: 100%;
     align-items: center;
-    /* Align text and image vertically */
 }
 
-/* Bio Text Section */
 .bio-text {
     flex: 2;
-    /* font-family: "Rubik Dirt", system-ui, sans-serif; */
     line-height: 1.8;
     text-align: left;
 }
@@ -56,10 +50,8 @@
     color: #333;
 }
 
-/* Portrait Section */
 .bio-portrait {
     flex: 1;
-    /* Take up 1/3 of the container */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +64,6 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .bio-content {
         flex-direction: column;
