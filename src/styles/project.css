@@ -30,9 +30,8 @@
 }
 
 .project-image {
-    max-width: 80%;
-    max-height: 50vh;
-    object-fit: contain;
+    max-width: 100%;
+    max-height: 70vh;
     margin: 0 auto;
     display: block;
 }
@@ -95,14 +94,24 @@
 
     .project-image {
         max-width: 100%;
-        max-height: 40vh;
+        max-height: 50vh;
     }
 
     .swiper-button-prev {
-        left: 10px;
+        left: 2px;
+        background: none;
+        color: #fff !important;
     }
 
     .swiper-button-next {
-        right: 10px;
+        right: 2px;
+        background: none;
+        color: #fff !important;
+    }
+
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover {
+        color: #fff !important;
+        background: none;
     }
 }

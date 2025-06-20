@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Rubik+Dirt&family=Rubik+Glitch&display=swap');
 
-.artist-name {
-    font-size: 100px;
+.bio-name {
+    font-size: 60px;
     text-align: center;
     font-family: "Rubik Dirt", system-ui, sans-serif;
     font-weight: 100;
     font-style: normal;
-    margin: 4rem 0 2rem 0;
 }
 
 .bio-page {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     margin: 2rem;
 }
 
@@ -52,11 +51,14 @@
     align-items: center;
 }
 
+.top-row {
+    margin: 4rem 0;
+}
+
 .bio-portrait .bio-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 768px) {

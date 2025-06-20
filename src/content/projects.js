@@ -27,7 +27,7 @@ const projects = [
       {
         parentId: "garments",
         id: "fashion-clash-festival",
-        mainImage: "/assets/images/upcycled/fc-festival.jpg",
+        mainImage: "/assets/images/upcycled/fashion-clash-dress.jpeg",
         images: [
           { src: "/assets/images/upcycled/fashion-clash-dress.jpeg"},
           { src: "/assets/images/upcycled/fc-side.jpg" },
@@ -41,10 +41,10 @@ const projects = [
       {
         parentId: "garments",
         id: "flower-blouse",
-        mainImage: "/assets/images/upcycled/double-design.jpeg" ,
+        mainImage: "/assets/images/upcycled/double-design-flower.jpeg" ,
         images: [
         
-          { src: "/assets/images/upcycled/double-design.jpeg"},
+          { src: "/assets/images/upcycled/double-design-flower.jpeg"},
           { src: "/assets/images/upcycled/flower.png" },
           { src: "/assets/images/upcycled/flower-mirror.jpeg" },
           { src: "/assets/images/upcycled/flower-light.jpeg" },
@@ -54,17 +54,28 @@ const projects = [
           { src: "/assets/images/upcycled/flower-stairs-side.jpeg" },
         ],
       },
+      {
+        parentId: "garments",
+        id: "black-shirt-outfit",
+        mainImage: "/assets/images/upcycled/double-design-black.jpeg" ,
+        images: [
+          { src: "/assets/images/upcycled/double-design-black.jpeg"},
+          { src: "/assets/images/upcycled/QEXL5587.jpeg" },
+          { src: "/assets/images/upcycled/OOLZ6624.jpeg" },
+
+        ],
+      },
     ],
   },
   {
-    id: "collages-and-paintings",
+    id: "paintings",
     title: "Drawing Silence, Assembling Memory",
     subtitle: "Drawing as listening, collaging as remembering.",
     description: "Drawing, for me, is a meditative act. I draw when I cannot speak, when words fall short. My lines emerge slowly, guided by breath and emotion. Collage, on the other hand, allows me to assemble fragments, images, textures, torn paper into quiet narratives. Both practices offer refuge, both are forms of visual journaling that allow me to inhabit time differently.",
     cover: "/assets/images/paintings/portrait.jpeg",
     subprojects: [
       {
-        parentId:"collages-and-paintings",
+        parentId:"paintings",
         id: "portrait",
         mainImage: "/assets/images/paintings/portrait.jpeg",
         images: [
@@ -75,7 +86,7 @@ const projects = [
         ],
       },
       {
-        parentId:"collages-and-paintings",
+        parentId:"paintings",
         id: "love-birds",
         mainImage: "/assets/images/paintings/partners.jpeg",
         images: [
@@ -85,17 +96,7 @@ const projects = [
         ],
       },
       {
-        parentId:"collages-and-paintings",
-        id: "leaf-collage",
-        mainImage: "/assets/images/paintings/leaf-bunch.jpeg",
-        images: [
-          { src: "/assets/images/paintings/leaf-bunch.jpeg" },
-          { src: "/assets/images/paintings/trees.jpeg" },
-          { src: "/assets/images/paintings/leaves.jpeg" },
-        ]
-      },
-      {
-        parentId:"collages-and-paintings",
+        parentId:"paintings",
         id: "sunset-trees",
         mainImage: "/assets/images/paintings/IMG_1423.jpeg",
         images: [
@@ -105,7 +106,7 @@ const projects = [
         ]
       },
       {
-        parentId:"collages-and-paintings",
+        parentId:"paintings",
         id: "abstract",
         mainImage: "/assets/images/paintings/colorful.jpeg",
         images: [
@@ -113,7 +114,7 @@ const projects = [
         ]
       },
       {
-        parentId:"collages-and-paintings",
+        parentId:"paintings",
         id: "watercolor-crystal",
         mainImage: "/assets/images/paintings/crystal-qr.jpeg",
         images: [
@@ -121,7 +122,7 @@ const projects = [
         ]
       },
       {
-        parentId:"collages-and-paintings",
+        parentId:"paintings",
         id: "light-bulb-inspo",
         mainImage: "/assets/images/paintings/light-bulbs.jpeg" ,
         images: [
@@ -129,12 +130,30 @@ const projects = [
         ]
       },
       {
-        parentId:"collages-and-paintings",
+        parentId:"paintings",
         id: "sunset-painting",
         mainImage: "/assets/images/paintings/sunset.jpeg" ,
         images: [
           { src: "/assets/images/paintings/sunset.jpeg" },
         ]
+      },
+      {
+        parentId:"paintings",
+        id: "buildings",
+        mainImage: "/assets/images/paintings/IMG_9385.jpeg",
+        images: [
+          { src: "/assets/images/paintings/IMG_9385.jpeg" },
+          { src: "/assets/images/paintings/IMG_9383.jpeg" },
+        ],
+      },
+      {
+        parentId:"paintings",
+        id: "granada",
+        mainImage: "/assets/images/paintings/IMG_E0259.jpeg",
+        images: [
+          { src: "/assets/images/paintings/IMG_E0259.jpeg" },
+          { src: "/assets/images/paintings/IMG_E0263.jpeg" },
+        ],
       },
     ],
   },
@@ -170,13 +189,27 @@ const projects = [
           { src: "/assets/images/crafts/IMG_2232.jpeg" },
           { src: "/assets/images/crafts/IMG_2233.jpeg" },
           { src: "/assets/images/crafts/IMG_2234.jpeg" },
-          // { src: "/assets/images/crafts/IMG_9382.jpeg" },
-          { src: "/assets/images/crafts/IMG_9383.jpeg" },
-          { src: "/assets/images/crafts/IMG_9385.jpeg" },
-          { src: "/assets/images/crafts/IMG_E0259.jpeg" },
-          { src: "/assets/images/crafts/IMG_E0263.jpeg" },
-          { src: "/assets/images/crafts/OOLZ6624.jpeg" },
-          { src: "/assets/images/crafts/QEXL5587.jpeg" },
+        ]
+      },
+      {
+        parentId:"paintings",
+        id: "leaf-collage",
+        mainImage: "/assets/images/crafts/leaf-bunch.jpeg",
+        images: [
+          { src: "/assets/images/crafts/leaf-bunch.jpeg" },
+          { src: "/assets/images/crafts/trees.jpeg" },
+          { src: "/assets/images/crafts/leaves.jpeg" },
+        ]
+      },
+      {
+        parentId: "crafts",
+        id: "blue-portrait",
+        mainImage: "/assets/images/crafts/blue-self-portrait-hold.jpeg",
+        images: [
+          { src: "/assets/images/crafts/blue-outline.jpeg" },
+          { src: "/assets/images/crafts/blue-halfway.jpeg" },
+          { src: "/assets/images/crafts/blue-self-port.jpeg" },
+          { src: "/assets/images/crafts/blue-self-portrait-hold.jpeg" },
         ]
       }
     ],

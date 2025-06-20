@@ -5,6 +5,15 @@
     gap: 2rem;
 }
 
+.artist-name {
+    font-size: 100px;
+    text-align: center;
+    font-family: "Rubik Dirt", system-ui, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 4rem 0 2rem 0;
+}   
+
 .artist-quote {
     font-size: 16px;
     font-style: italic;
@@ -102,12 +111,18 @@
 }
 
 @media (max-width: 480px) {
+    .artist-name {
+        font-size: 72px;
+        margin: 2rem 2rem;
+    }
+
+
     .projects-grid {
         grid-template-columns: 1fr;
     }
 
     .project-card {
-        grid-column: span 12;
+        grid-column: span 8;
 
     }
 }

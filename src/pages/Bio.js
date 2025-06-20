@@ -17,7 +17,7 @@ function Bio() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.2 }}
         >
-          <h1 className="rubik bio-name">{artist.name}</h1>
+          <h1 className="bio-name">{artist.name}</h1>
           <p>{ artist.bio }</p>
           <p className="portfolio-title">{artist.statement}</p>
 
