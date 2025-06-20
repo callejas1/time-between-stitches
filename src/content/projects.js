@@ -9,13 +9,13 @@ const projects = [
       {
         parentId: "garments",
         id: "upcycled-jean-shirt",
-        mainImage: "/assets/images/upcycled/shirt-done.jpeg",
+        mainImage: "/assets/images/upcycled/blue-shirt.jpeg",
         images: [
+          { src: "/assets/images/upcycled/blue-shirt.jpeg" },
           {
             src: "/assets/images/upcycled/shirt-done.jpeg",
             description: "A finished piece that has been transformed with the outmost care and love."
           },
-          { src: "/assets/images/upcycled/blue-shirt.jpeg" },
           {
             src: "/assets/images/upcycled/pants-floor.jpeg",
             description: "A delicate approach to upcycling and functional design."
