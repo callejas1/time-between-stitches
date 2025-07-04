@@ -91,6 +91,7 @@ const projects = [
         images: [
           { src: "https://i.pinimg.com/736x/60/ba/fc/60bafc79af87a8f7ffae1eaf1d29684a.jpg" },
           { src: "https://i.pinimg.com/736x/dc/97/5f/dc975fdff1054cf7d0328e020b3e3801.jpg" },
+          { src: "https://i.pinimg.com/736x/f9/76/24/f976247194dba9eab84cf302344f5736.jpg" },
         ],
       },
       {
@@ -106,10 +107,11 @@ const projects = [
       },
       {
         parentId:"paintings",
-        id: "watercolor-landscapes",
+        id: "watercolor-drawings",
         mainImage: "https://i.pinimg.com/736x/49/f6/0a/49f60a3b444d972e12e565fea70d5620.jpg",
         images: [
           { src: "https://i.pinimg.com/736x/99/2b/39/992b39a907fb8122eee2737f415d3a1b.jpg" },
+          { src: "https://i.pinimg.com/736x/94/28/58/942858c764c2ca2e5d40ee271ac452bb.jpg" },
           { src: "https://i.pinimg.com/736x/a9/94/5d/a9945d7a8a0aa2205e58352ed7d6f133.jpg" },
           { src: "https://i.pinimg.com/736x/49/f6/0a/49f60a3b444d972e12e565fea70d5620.jpg" },
           { src: "https://i.pinimg.com/736x/09/2a/63/092a6367a71b797463afc5271120b100.jpg" },
@@ -129,23 +131,6 @@ const projects = [
           { src: "https://i.pinimg.com/736x/f5/eb/e9/f5ebe98ab01cd3e698071db9abc15e2a.jpg" },
           { src: "https://i.pinimg.com/736x/42/bc/9c/42bc9c213a31caecfd770e9a3847b69f.jpg" },
           { src: "https://i.pinimg.com/736x/5e/28/eb/5e28ebd1369bdb826ddb7b255a9cc1d7.jpg" },
-        ]
-      },
-      {
-        parentId:"paintings",
-        id: "watercolor-drawings",
-        mainImage: "https://i.pinimg.com/736x/40/c8/da/40c8da310b22cf0c3794b7e866f2e7d4.jpg",
-        images: [
-          { src: "https://i.pinimg.com/736x/40/c8/da/40c8da310b22cf0c3794b7e866f2e7d4.jpg" },
-          { src: "https://i.pinimg.com/736x/94/28/58/942858c764c2ca2e5d40ee271ac452bb.jpg" },
-        ]
-      },
-      {
-        parentId:"paintings",
-        id: "light-bulb-inspo",
-        mainImage: "https://i.pinimg.com/736x/f9/76/24/f976247194dba9eab84cf302344f5736.jpg" ,
-        images: [
-          { src: "https://i.pinimg.com/736x/f9/76/24/f976247194dba9eab84cf302344f5736.jpg" },
         ]
       },
     ],
