@@ -230,8 +230,6 @@ const projects = [
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
           { src: "https://i.pinimg.com/736x/27/e8/80/27e880662ce09a07139bc500478a5006.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
-          { src: "/assets/images/performances/martin-all-red.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
-            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
           { src: "https://i.pinimg.com/736x/7e/af/da/7eafda90bc832d3a3227fc739d149414.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
           { src: "https://i.pinimg.com/736x/65/a8/e0/65a8e0a88ad8ff17e7b99c9e779ac6a6.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
