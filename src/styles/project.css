@@ -26,6 +26,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .image-tiles-container {
@@ -132,7 +133,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
     }
 
     .image-tiles-container {
