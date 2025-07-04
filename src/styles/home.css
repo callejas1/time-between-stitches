@@ -25,13 +25,13 @@
 
 .projects-wrapper {
     width: 90%;
-    margin: 2rem auto;
+    margin: 2rem 1rem;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 3rem;
+    grid-gap: 2rem;
     grid-auto-rows: 400px;
     width: 100%;
 }
