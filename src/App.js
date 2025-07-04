@@ -6,7 +6,18 @@ import Home from './pages/Home';
 import Bio from './pages/Bio';
 import Project from './pages/Project';
 import Category from './pages/Category';
-import './index.css'; // Keep global CSS
+import './index.css';
+import { useEffect } from 'react';
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -16,8 +27,8 @@ function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path='/' element={<Home />} />
         <Route path='/bio' element={<Bio />} />
-        <Route path="/:id" element={<Category />} />
-        <Route path="/:categoryId/:subprojectId" element={ <Project /> } />
+        <Route path='/:id' element={<Category />} />
+        <Route path='/:categoryId/:subprojectId' element={<Project />} />
       </Routes>
     </AnimatePresence>
   );
@@ -26,6 +37,7 @@ function AnimatedRoutes() {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className='layout'>
         <Navbar />
         <div className='content'>
