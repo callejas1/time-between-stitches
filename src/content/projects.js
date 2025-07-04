@@ -81,7 +81,11 @@ const projects = [
         images: [
           { src: "https://i.pinimg.com/736x/6a/55/4f/6a554f46c56392ac981af659b3b749d7.jpg" },
           { src: "https://i.pinimg.com/736x/fc/ae/7c/fcae7c0f07a5b7e209f13a35adcc58cd.jpg" },
-          { src: "https://i.pinimg.com/736x/59/9a/19/599a19e76910edd77a1895ec85cd6636.jpg" },
+          { src: "https://i.pinimg.com/736x/48/cb/60/48cb60ec6368e097b9400ea440c53b6d.jpg" },
+          { src: "https://i.pinimg.com/736x/e8/43/33/e8433365ce3a0772fa539568851976ed.jpg" },
+          // { src: "https://i.pinimg.com/736x/59/9a/19/599a19e76910edd77a1895ec85cd6636.jpg" },
+          { src: "https://i.pinimg.com/736x/38/83/5e/38835e1613cd8fcf18f023bce337b137.jpg" },
+
         ],
       },
       {
@@ -144,16 +148,26 @@ const projects = [
     subprojects: [
       {
         parentId: "crafts",
-        id: "faces-and-whiskers",
+        id: "clay-figures",
         mainImage: "https://i.pinimg.com/736x/9d/da/99/9dda9950d521e332edf92a24da70950f.jpg",
         images: [
-          { src: "https://i.pinimg.com/736x/9d/da/99/9dda9950d521e332edf92a24da70950f.jpg" },
           { src: "https://i.pinimg.com/736x/23/75/22/2375226c7036b14dda27602df4646587.jpg" },
-          { src: "https://i.pinimg.com/736x/6b/75/b1/6b75b11158a6b48e0caa6c0a67b0f96c.jpg" },
+          { src: "https://i.pinimg.com/736x/9d/da/99/9dda9950d521e332edf92a24da70950f.jpg" },
           { src: "https://i.pinimg.com/736x/16/a6/9a/16a69ad209944a4126f71d2cd76ddd2d.jpg" },
-          { src: "https://i.pinimg.com/736x/9d/b0/fd/9db0fd630e506845a4db587ad6307ef9.jpg" },
+          { src: "https://i.pinimg.com/736x/6b/75/b1/6b75b11158a6b48e0caa6c0a67b0f96c.jpg" },
           { src: "https://i.pinimg.com/736x/9d/a2/13/9da21362d6475db9ed2a49cf8472d3c4.jpg" },
-          { src: "https://i.pinimg.com/736x/24/e2/52/24e252faa5afe41b63168e78e729bd78.jpg" },
+          { src: "https://i.pinimg.com/736x/9d/b0/fd/9db0fd630e506845a4db587ad6307ef9.jpg" },
+          { src: "https://i.pinimg.com/736x/6d/c7/54/6dc7547d016084958142e0d603e5126c.jpg" },
+          { src: "https://i.pinimg.com/736x/a2/b8/b4/a2b8b45c090fa884ca3ea6b9c3e7336b.jpg" },
+          { src: "https://i.pinimg.com/736x/4f/1e/b5/4f1eb5c23ba990e22f470a9433300bd2.jpg" },
+          { src: "https://i.pinimg.com/736x/e8/11/c5/e811c5767f1337aaa563071e745b6363.jpg" },
+          { src: "https://i.pinimg.com/736x/03/07/3d/03073d12e7f52b761772f7f9dfdf012b.jpg" },
+          { src: "https://i.pinimg.com/736x/f8/bf/3e/f8bf3e09c0be9b727496f60b7c8cf906.jpg" },
+          { src: "https://i.pinimg.com/736x/fc/73/71/fc73718484a1b6861d99145400dc2b36.jpg" }, 
+          { src: "https://i.pinimg.com/736x/13/85/67/13856753d0df3343395ee28e1475c7fe.jpg" }, 
+          { src: "https://i.pinimg.com/736x/d5/68/b2/d568b27b2d3c9a1ae6cab449ca994b9e.jpg" },
+          { src: "https://i.pinimg.com/736x/a7/b4/8e/a7b48e3677024daf115c7cf69433049f.jpg" },
+
         ]
       },
       {

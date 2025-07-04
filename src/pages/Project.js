@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import "../styles/project.css";
 
@@ -21,17 +21,33 @@ function Project() {
 
   if (!subproject) return <p>Project not found.</p>;
 
-  // Handlers to open and close the modal
   const openModal = (index) => {
     setCurrentSlideIndex(index);
       setIsModalOpen(true);
-      console.log('modal is open')
   };
 
-  const closeModal = () => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps, react-hooks/rules-of-hooks
+  const closeModal = useCallback(() => {
       setIsModalOpen(false);
-      console.log("modal should be closed now")
-  };
+  });
+
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape" & isModalOpen) {
+        closeModal();
+      }
+    };
+
+    if (isModalOpen) {
+      document.addEventListener("keydown", handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+    
+  }, [isModalOpen, closeModal]);
 
   return (
     <motion.div
