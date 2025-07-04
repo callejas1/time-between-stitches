@@ -121,3 +121,22 @@
     background: #000 !important;
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+    .project-description {
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .image-tiles-grid {        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .image-tiles-container {
+        margin: 16px;
+    }
+
+}
