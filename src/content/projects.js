@@ -81,17 +81,16 @@ const projects = [
         images: [
           { src: "https://i.pinimg.com/736x/6a/55/4f/6a554f46c56392ac981af659b3b749d7.jpg" },
           { src: "https://i.pinimg.com/736x/fc/ae/7c/fcae7c0f07a5b7e209f13a35adcc58cd.jpg" },
-          { src: "https://i.pinimg.com/736x/dc/97/5f/dc975fdff1054cf7d0328e020b3e3801.jpg" },
           { src: "https://i.pinimg.com/736x/59/9a/19/599a19e76910edd77a1895ec85cd6636.jpg" },
         ],
       },
       {
         parentId:"paintings",
-        id: "couple",
-        mainImage: "https://i.pinimg.com/736x/94/28/58/942858c764c2ca2e5d40ee271ac452bb.jpg",
+        id: "collages",
+        mainImage: "https://i.pinimg.com/736x/60/ba/fc/60bafc79af87a8f7ffae1eaf1d29684a.jpg",
         images: [
-          { src: "https://i.pinimg.com/736x/94/28/58/942858c764c2ca2e5d40ee271ac452bb.jpg" },    
           { src: "https://i.pinimg.com/736x/60/ba/fc/60bafc79af87a8f7ffae1eaf1d29684a.jpg" },
+          { src: "https://i.pinimg.com/736x/dc/97/5f/dc975fdff1054cf7d0328e020b3e3801.jpg" },
         ],
       },
       {
@@ -107,28 +106,38 @@ const projects = [
       },
       {
         parentId:"paintings",
-        id: "sunset-trees",
+        id: "watercolor-landscapes",
         mainImage: "https://i.pinimg.com/736x/49/f6/0a/49f60a3b444d972e12e565fea70d5620.jpg",
         images: [
           { src: "https://i.pinimg.com/736x/99/2b/39/992b39a907fb8122eee2737f415d3a1b.jpg" },
           { src: "https://i.pinimg.com/736x/a9/94/5d/a9945d7a8a0aa2205e58352ed7d6f133.jpg" },
           { src: "https://i.pinimg.com/736x/49/f6/0a/49f60a3b444d972e12e565fea70d5620.jpg" },
+          { src: "https://i.pinimg.com/736x/09/2a/63/092a6367a71b797463afc5271120b100.jpg" },
+          { src: "https://i.pinimg.com/736x/6f/41/b0/6f41b08ef95700fe255d2d3fd1c56c96.jpg" },
+          { src: "https://i.pinimg.com/736x/bb/07/f9/bb07f933d3d08d8a37e4c045fae12bd7.jpg" },          
+          { src: "https://i.pinimg.com/736x/35/b0/d3/35b0d3ec846d34be94590d57985b492e.jpg" },
         ]
       },
       {
         parentId:"paintings",
         id: "abstract",
-        mainImage: "https://i.pinimg.com/736x/ab/fe/6b/abfe6ba29483dbc43246fb23b49b8f2f.jpg",
+        mainImage: "https://i.pinimg.com/736x/ca/fa/a5/cafaa55c6d70039b227708257ae03441.jpg",
         images: [
+          { src: "https://i.pinimg.com/736x/ca/fa/a5/cafaa55c6d70039b227708257ae03441.jpg" },
           { src: "https://i.pinimg.com/736x/ab/fe/6b/abfe6ba29483dbc43246fb23b49b8f2f.jpg" },
+          { src: "https://i.pinimg.com/736x/92/4f/2f/924f2f023339ead283d08d844ef35378.jpg" },
+          { src: "https://i.pinimg.com/736x/f5/eb/e9/f5ebe98ab01cd3e698071db9abc15e2a.jpg" },
+          { src: "https://i.pinimg.com/736x/42/bc/9c/42bc9c213a31caecfd770e9a3847b69f.jpg" },
+          { src: "https://i.pinimg.com/736x/5e/28/eb/5e28ebd1369bdb826ddb7b255a9cc1d7.jpg" },
         ]
       },
       {
         parentId:"paintings",
-        id: "watercolor-crystal",
+        id: "watercolor-drawings",
         mainImage: "https://i.pinimg.com/736x/40/c8/da/40c8da310b22cf0c3794b7e866f2e7d4.jpg",
         images: [
           { src: "https://i.pinimg.com/736x/40/c8/da/40c8da310b22cf0c3794b7e866f2e7d4.jpg" },
+          { src: "https://i.pinimg.com/736x/94/28/58/942858c764c2ca2e5d40ee271ac452bb.jpg" },
         ]
       },
       {
@@ -137,14 +146,6 @@ const projects = [
         mainImage: "https://i.pinimg.com/736x/f9/76/24/f976247194dba9eab84cf302344f5736.jpg" ,
         images: [
           { src: "https://i.pinimg.com/736x/f9/76/24/f976247194dba9eab84cf302344f5736.jpg" },
-        ]
-      },
-      {
-        parentId:"paintings",
-        id: "sunset-painting",
-        mainImage: "https://i.pinimg.com/736x/35/b0/d3/35b0d3ec846d34be94590d57985b492e.jpg" ,
-        images: [
-          { src: "https://i.pinimg.com/736x/35/b0/d3/35b0d3ec846d34be94590d57985b492e.jpg" },
         ]
       },
     ],
@@ -201,6 +202,18 @@ const projects = [
           { src: "https://i.pinimg.com/736x/ee/e6/2b/eee62b8d7878f7aa3fe3fe44d52c316d.jpg" },
           { src: "https://i.pinimg.com/736x/87/65/58/8765587562583abc1a57c8362cc429ca.jpg" },
           { src: "https://i.pinimg.com/736x/c0/eb/b4/c0ebb4257f8c5e860a11eefd2fd37bf8.jpg" },
+        ]
+      },
+      {
+        parentId: "crafts",
+        id: "embroidery",
+        mainImage: "https://i.pinimg.com/736x/eb/0b/a9/eb0ba999d8ba60ca5b249d902fcd0228.jpg",
+        images: [
+          { src: "https://i.pinimg.com/736x/eb/0b/a9/eb0ba999d8ba60ca5b249d902fcd0228.jpg" },
+          { src: "https://i.pinimg.com/736x/98/75/c2/9875c275d75c21512c098672afaadd51.jpg" },
+          { src: "https://i.pinimg.com/736x/ba/44/13/ba4413049675fe17ce5c72105f00ed1c.jpg" },
+          { src: "https://i.pinimg.com/736x/b7/c3/3d/b7c33d261381edc553b5d56f1cb08fb1.jpg" },
+          { src: "https://i.pinimg.com/736x/73/29/89/73298921b3dd9acbaa4f9b91718bc0c6.jpg" },
         ]
       }
     ],
