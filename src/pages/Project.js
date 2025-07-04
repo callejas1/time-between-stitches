@@ -1,30 +1,36 @@
 import { useParams } from "react-router-dom";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import projects from "../content/projects";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
-import "../styles/project.css";
 import { useState } from "react";
-import Breadcrumb from '../components/Breadcrumb';
+import Breadcrumb from "../components/Breadcrumb";
+import "../styles/project.css";
 
 function Project() {
   const { categoryId, subprojectId } = useParams();
   const category = projects.find((proj) => proj.id === categoryId);
   const subproject = category?.subprojects.find((sub) => sub.id === subprojectId);
-  const project = projects.find((project) => project.id === subproject.parentId)
-  const [currentDescription, setCurrentDescription] = useState(
-    subproject?.images[0]?.description || ""
-  );
+  const project = projects.find((p) => p.id === subproject?.parentId);
+
+  const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   if (!subproject) return <p>Project not found.</p>;
 
-  const handleSlideChange = (swiper) => {
-    const activeSlideIndex = swiper.activeIndex;
-    const activeImage = subproject.images[activeSlideIndex];
-    setCurrentDescription(activeImage?.description || "");
+  // Handlers to open and close the modal
+  const openModal = (index) => {
+    setCurrentSlideIndex(index);
+      setIsModalOpen(true);
+      console.log('modal is open')
+  };
+
+  const closeModal = () => {
+      setIsModalOpen(false);
+      console.log("modal should be closed now")
   };
 
   return (
@@ -33,33 +39,70 @@ function Project() {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-  >
+    >
       <Breadcrumb />
       <header className="project-header">
-        <h1 className="project-title">{project.title}</h1>
+        <h1 className="project-title">{project?.title}</h1>
       </header>
       <div className="project-image-container">
-        <Swiper
-          modules={[Navigation, Pagination]}
-          spaceBetween={16}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          onSlideChange={handleSlideChange}
-        >
+        <div className="image-tiles-grid">
           {subproject.images.map((image, idx) => (
-            <SwiperSlide key={idx}>
+            <div
+              key={idx}
+              className="image-tiles-container"
+              onClick={() => openModal(idx)}
+            >
               <img
                 src={image.src}
-                alt={image.alt || `Slide ${idx + 1}`}
-                className="project-image"
+                alt={image.alt || `Image ${idx + 1}`}
+                className="project-image-tiles"
               />
-            </SwiperSlide>
+            </div>
           ))}
-        </Swiper>
+        </div>
       </div>
-      {currentDescription && (
-        <p className="image-description">{currentDescription}</p>
+
+      {/* Modal */}
+      {isModalOpen && (
+        <div
+          className="modal active"
+          onClick={closeModal}
+        >
+          <div
+            className="modal-content"
+            onClick={(e) => e.stopPropagation()} // Prevent propagation when clicking inside modal
+          >
+            <button
+              className="close close-btn"
+              onClick={closeModal} // Close modal when clicking the X button
+            >
+              &times;
+            </button>
+            <Swiper
+                modules={[Navigation, Pagination]}
+                spaceBetween={16}
+                slidesPerView={1}
+                navigation
+                loop={true}
+                pagination={{ clickable: true }}
+                onSlideChange={(swiper) => setCurrentSlideIndex(swiper.activeIndex)}
+                initialSlide={currentSlideIndex} // Jump to the clicked image in Swiper
+            >
+              {subproject.images.map((image, idx) => (
+                <SwiperSlide key={idx}>
+                  <img
+                    src={image.src}
+                    alt={image.alt || `Slide ${idx + 1}`}
+                    className="project-image-modal"
+                  />
+                  <p className="modal-description">
+                    {image.description}
+                  </p>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        </div>
       )}
     </motion.div>
   );

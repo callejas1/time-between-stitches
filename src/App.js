@@ -17,7 +17,7 @@ function AnimatedRoutes() {
         <Route path='/' element={<Home />} />
         <Route path='/bio' element={<Bio />} />
         <Route path="/:id" element={<Category />} />
-        <Route path="/:categoryId/:subprojectId" element={<Project />} />
+        <Route path="/:categoryId/:subprojectId" element={ <Project /> } />
       </Routes>
     </AnimatePresence>
   );
