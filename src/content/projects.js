@@ -4,64 +4,64 @@ const projects = [
     title: "Clothes as Memory, Repair as Resistance",
     subtitle: "To wear memory, to mend the future.",
     description: "In these works, garments are not just fashion, they are intimate containers of stories, migration, survival, and care. I engage in upcycling as a ritual: mending not only fabric, but wounds; deconstructing fast-fashion logic and reimagining the body as an archive. Each intervention is an act of remembrance and resistance, stitched with the hope that what is broken can become whole in new, unexpected ways.",
-    cover: "/assets/images/upcycled/shirt-done.jpeg",
+    cover: "https://i.pinimg.com/736x/af/b1/45/afb14596f0fc3f063e5ee790499dd47b.jpg",
     subprojects: [
       {
         parentId: "garments",
         id: "upcycled-jean-shirt",
-        mainImage: "/assets/images/upcycled/blue-shirt.jpeg",
+        mainImage: "https://i.pinimg.com/736x/75/44/ca/7544ca03708d0f35d079b5b579f6c729.jpg",
         images: [
-          { src: "/assets/images/upcycled/blue-shirt.jpeg" },
+          { src: "https://i.pinimg.com/736x/75/44/ca/7544ca03708d0f35d079b5b579f6c729.jpg" },
           {
-            src: "/assets/images/upcycled/shirt-done.jpeg",
+            src: "https://i.pinimg.com/736x/af/b1/45/afb14596f0fc3f063e5ee790499dd47b.jpg",
             description: "A finished piece that has been transformed with the outmost care and love."
           },
           {
-            src: "/assets/images/upcycled/pants-floor.jpeg",
+            src: "https://i.pinimg.com/736x/ad/c9/d8/adc9d8d8f17247b4f8a86b3d4eae53e6.jpg",
             description: "A delicate approach to upcycling and functional design."
           },
-          { src: "/assets/images/upcycled/shirt-mirror.jpeg" },
-          { src: "/assets/images/upcycled/shirt-on.jpeg" },
+          { src: "https://i.pinimg.com/736x/77/4c/55/774c559964984c8247c7484e65c7f24a.jpg" },
+          { src: "https://i.pinimg.com/736x/04/20/40/042040936c489f5b6c452e5a85b86995.jpg" },
         ],
       },
       {
         parentId: "garments",
         id: "fashion-clash-festival",
-        mainImage: "/assets/images/upcycled/fashion-clash-dress.jpeg",
+        mainImage: "https://i.pinimg.com/736x/0e/db/fa/0edbfa4e070244e04eeacc4d0de6d6f6.jpg",
         images: [
-          { src: "/assets/images/upcycled/fashion-clash-dress.jpeg"},
-          { src: "/assets/images/upcycled/fc-side.jpg" },
+          { src: "https://i.pinimg.com/736x/0e/db/fa/0edbfa4e070244e04eeacc4d0de6d6f6.jpg"},
+          { src: "https://i.pinimg.com/736x/12/31/a1/1231a1930f20c48ff48a170685a1db92.jpg" },
           {
-            src: "/assets/images/upcycled/fc-festival.jpg",
+            src: "https://i.pinimg.com/736x/b6/bd/84/b6bd84bd8aa14d78d564a7b81f0b3bc4.jpg",
             alt: "Fashion clash event - upcycled clothes"
           },
-          { src: "/assets/images/upcycled/mirror-fc-stand.jpeg" },
+          { src: "https://i.pinimg.com/736x/f4/8b/0a/f48b0a753a64cbbea30c653291086c7e.jpg" },
         ],
       },
       {
         parentId: "garments",
         id: "flower-blouse",
-        mainImage: "/assets/images/upcycled/double-design-flower.jpeg" ,
+        mainImage: "https://i.pinimg.com/736x/99/5d/23/995d2310776fdc9d41e1e8245d7645ce.jpg" ,
         images: [
         
-          { src: "/assets/images/upcycled/double-design-flower.jpeg"},
-          { src: "/assets/images/upcycled/flower.png" },
-          { src: "/assets/images/upcycled/flower-mirror.jpeg" },
-          { src: "/assets/images/upcycled/flower-light.jpeg" },
-          { src: "/assets/images/upcycled/flower-mirror-2.jpeg" },
-          { src: "/assets/images/upcycled/flower-stairs.jpeg" },
-          { src: "/assets/images/upcycled/flower-chest.jpeg" },
-          { src: "/assets/images/upcycled/flower-stairs-side.jpeg" },
+          { src: "https://i.pinimg.com/736x/99/5d/23/995d2310776fdc9d41e1e8245d7645ce.jpg"},
+          { src: "https://i.pinimg.com/736x/3a/c8/5a/3ac85a8103ad2842c6941acecce04515.jpg" },
+          { src: "https://i.pinimg.com/736x/55/a1/4e/55a14e3f3aa3f2206b411b78efe1335f.jpg" },
+          { src: "https://i.pinimg.com/736x/b1/26/18/b126184efdbc50116e29cf35d789c8aa.jpg" },
+          { src: "https://i.pinimg.com/736x/7b/34/48/7b3448598db7fc8c5f953d6e12165eab.jpg" },
+          { src: "https://i.pinimg.com/736x/ac/00/ae/ac00ae48bb22265cea2e34b385161203.jpg" },
+          { src: "https://i.pinimg.com/736x/86/01/1a/86011ac9908187476d578c697f7d6e2e.jpg" },
+          { src: "https://i.pinimg.com/736x/2c/0f/66/2c0f66ca86416f7d971be8d2ad02b87a.jpg" },
         ],
       },
       {
         parentId: "garments",
         id: "black-shirt-outfit",
-        mainImage: "/assets/images/upcycled/double-design-black.jpeg" ,
+        mainImage: "https://i.pinimg.com/736x/fd/f3/b8/fdf3b87c015434f2db1be1232e6d2517.jpg" ,
         images: [
-          { src: "/assets/images/upcycled/double-design-black.jpeg"},
-          { src: "/assets/images/upcycled/QEXL5587.jpeg" },
-          { src: "/assets/images/upcycled/OOLZ6624.jpeg" },
+          { src: "https://i.pinimg.com/736x/fd/f3/b8/fdf3b87c015434f2db1be1232e6d2517.jpg"},
+          { src: "https://i.pinimg.com/736x/85/46/79/854679fe5190929e4e5307a5a91eebf2.jpg" },
+          { src: "https://i.pinimg.com/736x/a5/11/8f/a5118f797bace69654c72bdc72bd238f.jpg" },
 
         ],
       },
@@ -72,88 +72,80 @@ const projects = [
     title: "Drawing Silence, Assembling Memory",
     subtitle: "Drawing as listening, collaging as remembering.",
     description: "Drawing, for me, is a meditative act. I draw when I cannot speak, when words fall short. My lines emerge slowly, guided by breath and emotion. Collage, on the other hand, allows me to assemble fragments, images, textures, torn paper into quiet narratives. Both practices offer refuge, both are forms of visual journaling that allow me to inhabit time differently.",
-    cover: "/assets/images/paintings/portrait.jpeg",
+    cover: "https://i.pinimg.com/736x/6a/55/4f/6a554f46c56392ac981af659b3b749d7.jpg",
     subprojects: [
       {
         parentId:"paintings",
         id: "portrait",
-        mainImage: "/assets/images/paintings/portrait.jpeg",
+        mainImage: "https://i.pinimg.com/736x/6a/55/4f/6a554f46c56392ac981af659b3b749d7.jpg",
         images: [
-          { src: "/assets/images/paintings/portrait.jpeg" },
-          { src: "/assets/images/paintings/portrait-mirror.jpeg" },
-          { src: "/assets/images/paintings/self-collage.jpeg" },
-          { src: "/assets/images/paintings/IMG_0628.jpeg" },
+          { src: "https://i.pinimg.com/736x/6a/55/4f/6a554f46c56392ac981af659b3b749d7.jpg" },
+          { src: "https://i.pinimg.com/736x/fc/ae/7c/fcae7c0f07a5b7e209f13a35adcc58cd.jpg" },
+          { src: "https://i.pinimg.com/736x/dc/97/5f/dc975fdff1054cf7d0328e020b3e3801.jpg" },
+          { src: "https://i.pinimg.com/736x/59/9a/19/599a19e76910edd77a1895ec85cd6636.jpg" },
         ],
       },
       {
         parentId:"paintings",
-        id: "love-birds",
-        mainImage: "/assets/images/paintings/partners.jpeg",
+        id: "couple",
+        mainImage: "https://i.pinimg.com/736x/94/28/58/942858c764c2ca2e5d40ee271ac452bb.jpg",
         images: [
-          { src: "/assets/images/paintings/partners.jpeg" },    
-          { src: "/assets/images/paintings/partners-collage.jpeg" },
-          { src: "/assets/images/paintings/collage.jpeg", description: "Textured collage showing fragments of a constructed memory." },    
+          { src: "https://i.pinimg.com/736x/94/28/58/942858c764c2ca2e5d40ee271ac452bb.jpg" },    
+          { src: "https://i.pinimg.com/736x/60/ba/fc/60bafc79af87a8f7ffae1eaf1d29684a.jpg" },
+        ],
+      },
+      {
+        parentId:"paintings",
+        id: "buildings",
+        mainImage: "https://i.pinimg.com/736x/ed/b6/71/edb671e7626cdc648db65a83c2e98d86.jpg",
+        images: [
+          { src: "https://i.pinimg.com/736x/70/21/b7/7021b7c98ec090757821b4e9b84deb00.jpg" },
+          { src: "https://i.pinimg.com/736x/ed/b6/71/edb671e7626cdc648db65a83c2e98d86.jpg" },
+          { src: "https://i.pinimg.com/736x/11/66/55/11665553f8452bd5e51723bc6575a071.jpg" },
+          { src: "https://i.pinimg.com/736x/71/cc/1c/71cc1c9142263f428ecc6461589d6d11.jpg" },
         ],
       },
       {
         parentId:"paintings",
         id: "sunset-trees",
-        mainImage: "/assets/images/paintings/IMG_1423.jpeg",
+        mainImage: "https://i.pinimg.com/736x/49/f6/0a/49f60a3b444d972e12e565fea70d5620.jpg",
         images: [
-          { src: "/assets/images/paintings/IMG_1423.jpeg" },
-          { src: "/assets/images/paintings/IMG_1422.jpeg" },
-          { src: "/assets/images/paintings/drawing-sun-trees.jpeg" },
+          { src: "https://i.pinimg.com/736x/99/2b/39/992b39a907fb8122eee2737f415d3a1b.jpg" },
+          { src: "https://i.pinimg.com/736x/a9/94/5d/a9945d7a8a0aa2205e58352ed7d6f133.jpg" },
+          { src: "https://i.pinimg.com/736x/49/f6/0a/49f60a3b444d972e12e565fea70d5620.jpg" },
         ]
       },
       {
         parentId:"paintings",
         id: "abstract",
-        mainImage: "/assets/images/paintings/colorful.jpeg",
+        mainImage: "https://i.pinimg.com/736x/ab/fe/6b/abfe6ba29483dbc43246fb23b49b8f2f.jpg",
         images: [
-          { src: "/assets/images/paintings/colorful.jpeg" },
+          { src: "https://i.pinimg.com/736x/ab/fe/6b/abfe6ba29483dbc43246fb23b49b8f2f.jpg" },
         ]
       },
       {
         parentId:"paintings",
         id: "watercolor-crystal",
-        mainImage: "/assets/images/paintings/crystal-qr.jpeg",
+        mainImage: "https://i.pinimg.com/736x/40/c8/da/40c8da310b22cf0c3794b7e866f2e7d4.jpg",
         images: [
-          { src: "/assets/images/paintings/crystal-qr.jpeg" },
+          { src: "https://i.pinimg.com/736x/40/c8/da/40c8da310b22cf0c3794b7e866f2e7d4.jpg" },
         ]
       },
       {
         parentId:"paintings",
         id: "light-bulb-inspo",
-        mainImage: "/assets/images/paintings/light-bulbs.jpeg" ,
+        mainImage: "https://i.pinimg.com/736x/f9/76/24/f976247194dba9eab84cf302344f5736.jpg" ,
         images: [
-          { src: "/assets/images/paintings/light-bulbs.jpeg" },
+          { src: "https://i.pinimg.com/736x/f9/76/24/f976247194dba9eab84cf302344f5736.jpg" },
         ]
       },
       {
         parentId:"paintings",
         id: "sunset-painting",
-        mainImage: "/assets/images/paintings/sunset.jpeg" ,
+        mainImage: "https://i.pinimg.com/736x/35/b0/d3/35b0d3ec846d34be94590d57985b492e.jpg" ,
         images: [
-          { src: "/assets/images/paintings/sunset.jpeg" },
+          { src: "https://i.pinimg.com/736x/35/b0/d3/35b0d3ec846d34be94590d57985b492e.jpg" },
         ]
-      },
-      {
-        parentId:"paintings",
-        id: "buildings",
-        mainImage: "/assets/images/paintings/IMG_9385.jpeg",
-        images: [
-          { src: "/assets/images/paintings/IMG_9385.jpeg" },
-          { src: "/assets/images/paintings/IMG_9383.jpeg" },
-        ],
-      },
-      {
-        parentId:"paintings",
-        id: "granada",
-        mainImage: "/assets/images/paintings/IMG_E0259.jpeg",
-        images: [
-          { src: "/assets/images/paintings/IMG_E0259.jpeg" },
-          { src: "/assets/images/paintings/IMG_E0263.jpeg" },
-        ],
       },
     ],
   },
@@ -162,54 +154,53 @@ const projects = [
     title: "Hands that Shape, Matter that Speaks",
     subtitle: "The hand knows what the words forget.",
     description: "These pieces emerge from the intimacy between body and material. Clay resists and yields; linoleum scars with each cut. I let my hands remember things I’ve forgotten in my mind. The objects I shape are small altars, emotional textures, and sometimes abstract landscapes. This is the space where fragility meets persistence, and where form is a quiet testimony of touch.",
-    cover: "/assets/images/crafts/IMG_3360.jpeg",
+    cover: "https://i.pinimg.com/736x/9d/da/99/9dda9950d521e332edf92a24da70950f.jpg",
     subprojects: [
       {
         parentId: "crafts",
         id: "faces-and-whiskers",
-        mainImage: "/assets/images/crafts/IMG_3360.jpeg",
+        mainImage: "https://i.pinimg.com/736x/9d/da/99/9dda9950d521e332edf92a24da70950f.jpg",
         images: [
-          { src: "/assets/images/crafts/IMG_3360.jpeg" },
-          { src: "/assets/images/crafts/IMG_3359.jpeg" },
-          { src: "/assets/images/crafts/faces-clay.jpeg" },
-          { src: "/assets/images/crafts/IMG_3358.jpeg" },
-          { src: "/assets/images/crafts/IMG_3353.jpeg" },
-          { src: "/assets/images/crafts/IMG_3357.jpeg" },
-          { src: "/assets/images/crafts/whiskers-jar.jpeg" },
+          { src: "https://i.pinimg.com/736x/9d/da/99/9dda9950d521e332edf92a24da70950f.jpg" },
+          { src: "https://i.pinimg.com/736x/23/75/22/2375226c7036b14dda27602df4646587.jpg" },
+          { src: "https://i.pinimg.com/736x/6b/75/b1/6b75b11158a6b48e0caa6c0a67b0f96c.jpg" },
+          { src: "https://i.pinimg.com/736x/16/a6/9a/16a69ad209944a4126f71d2cd76ddd2d.jpg" },
+          { src: "https://i.pinimg.com/736x/9d/b0/fd/9db0fd630e506845a4db587ad6307ef9.jpg" },
+          { src: "https://i.pinimg.com/736x/9d/a2/13/9da21362d6475db9ed2a49cf8472d3c4.jpg" },
+          { src: "https://i.pinimg.com/736x/24/e2/52/24e252faa5afe41b63168e78e729bd78.jpg" },
         ]
       },
       {
         parentId: "crafts",
         id: "chalk-crafts",
-        mainImage: "/assets/images/crafts/IMG_2235.jpeg",
+        mainImage: "https://i.pinimg.com/736x/ff/68/61/ff6861872145278f5870d0ed782d6ac4.jpg",
         images: [
-          { src: "/assets/images/crafts/IMG_2235.jpeg" },
-          // { src: "/assets/images/crafts/abstract.jpeg" },
-          { src: "/assets/images/crafts/crafting.jpeg" },
-          { src: "/assets/images/crafts/IMG_2232.jpeg" },
-          { src: "/assets/images/crafts/IMG_2233.jpeg" },
-          { src: "/assets/images/crafts/IMG_2234.jpeg" },
+          { src: "https://i.pinimg.com/736x/ff/68/61/ff6861872145278f5870d0ed782d6ac4.jpg" },
+          { src: "https://i.pinimg.com/736x/e9/fd/08/e9fd08f791c3a1edcac82bd86bc48f57.jpg" },
+          { src: "https://i.pinimg.com/736x/f4/62/aa/f462aab224fdec139cbe237bdfcbd65e.jpg" },
+          { src: "https://i.pinimg.com/736x/47/43/aa/4743aaeddb2a540faaf11f01ac18d397.jpg" },
         ]
       },
       {
         parentId:"paintings",
         id: "leaf-collage",
-        mainImage: "/assets/images/crafts/leaf-bunch.jpeg",
+        mainImage: "https://i.pinimg.com/736x/0f/b3/53/0fb35319b1dce6ae8465974998f604ec.jpg",
         images: [
-          { src: "/assets/images/crafts/leaf-bunch.jpeg" },
-          { src: "/assets/images/crafts/trees.jpeg" },
-          { src: "/assets/images/crafts/leaves.jpeg" },
+          { src: "https://i.pinimg.com/736x/0f/b3/53/0fb35319b1dce6ae8465974998f604ec.jpg" },
+          { src: "https://i.pinimg.com/736x/b6/e4/00/b6e4000fbab60f593e1cf57c4b444a33.jpg" },
+          { src: "https://i.pinimg.com/736x/48/66/b6/4866b6ed35112a6968d49dcd015ab3a3.jpg" },
+          { src: "https://i.pinimg.com/736x/09/6f/7b/096f7b85750e7f875784d9ee0a18e9d6.jpg" },
         ]
       },
       {
         parentId: "crafts",
         id: "blue-portrait",
-        mainImage: "/assets/images/crafts/blue-self-portrait-hold.jpeg",
+        mainImage: "https://i.pinimg.com/736x/c0/eb/b4/c0ebb4257f8c5e860a11eefd2fd37bf8.jpg",
         images: [
-          { src: "/assets/images/crafts/blue-outline.jpeg" },
-          { src: "/assets/images/crafts/blue-halfway.jpeg" },
-          { src: "/assets/images/crafts/blue-self-port.jpeg" },
-          { src: "/assets/images/crafts/blue-self-portrait-hold.jpeg" },
+          { src: "https://i.pinimg.com/736x/d9/8c/a2/d98ca250ac1566c0929606798c7f4ff1.jpg" },
+          { src: "https://i.pinimg.com/736x/ee/e6/2b/eee62b8d7878f7aa3fe3fe44d52c316d.jpg" },
+          { src: "https://i.pinimg.com/736x/87/65/58/8765587562583abc1a57c8362cc429ca.jpg" },
+          { src: "https://i.pinimg.com/736x/c0/eb/b4/c0ebb4257f8c5e860a11eefd2fd37bf8.jpg" },
         ]
       }
     ],
@@ -219,58 +210,69 @@ const projects = [
     title: "Embodied Stories, Lived Gestures",
     subtitle: "The body as memory, the gesture as testimony.",
     description: "I began performing without calling it performance through gestures, through silence, through simply showing up with my body. In these pieces, I explore the body as a site of memory and resistance, especially in relation to migration and queerness. Performance allows me to inhabit stories that are not only mine, and to share them in ways that move beyond language. It is a way of being, of listening, of offering.",
-    cover: "/assets/images/performances/selfie-models.jpeg",
+    cover: "https://i.pinimg.com/736x/3c/7d/2b/3c7d2bb66f9f1719fc0d28ae69649dbf.jpg",
     subprojects: [
       {
         parentId: "performances",
         id: "human-herd",
         description: "Fashion Clash 2024 - Paula Dischinger",
-        mainImage: "/assets/images/performances/selfie-models.jpeg",
+        mainImage: "https://i.pinimg.com/736x/3c/7d/2b/3c7d2bb66f9f1719fc0d28ae69649dbf.jpg",
         images: [
-          { src: "/assets/images/performances/selfie-models.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+          { src: "https://i.pinimg.com/736x/3c/7d/2b/3c7d2bb66f9f1719fc0d28ae69649dbf.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
-          { src: "/assets/images/performances/mirror-pic.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+          { src: "https://i.pinimg.com/736x/bc/0f/06/bc0f061a8bb4059aad02f6df4909cd58.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival`},
-          { src: "/assets/images/performances/runway-cover.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+          { src: "https://i.pinimg.com/736x/b7/6b/4e/b76b4e0746ae170b177fce6378658c01.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
-          { src: "/assets/images/performances/martin-walk.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+          { src: "https://i.pinimg.com/736x/8b/d1/60/8bd1604600081e968ab5533399e3778c.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival`},
-          { src: "/assets/images/performances/walk-dark.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+          { src: "https://i.pinimg.com/736x/58/bd/08/58bd08e6678b6e3285a8108eb8416c2a.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
-          { src: "/assets/images/performances/walk-behind.jpeg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+          { src: "https://i.pinimg.com/736x/27/e8/80/27e880662ce09a07139bc500478a5006.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
           { src: "/assets/images/performances/martin-all-red.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
-          { src: "/assets/images/performances/posing-martin.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+          { src: "https://i.pinimg.com/736x/7e/af/da/7eafda90bc832d3a3227fc739d149414.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
-          { src: "/assets/images/performances/all-red-again.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+          { src: "https://i.pinimg.com/736x/65/a8/e0/65a8e0a88ad8ff17e7b99c9e779ac6a6.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
             FASHIONCLASH Festival 2024 - @fashionclash_festival` },
+          { src: "https://i.pinimg.com/736x/1f/76/fd/1f76fd6d22753664f5ce2881622ba400.jpg", description: `Photography: Laura Knipsael - @lauraknipsael, Mitch van Schijndel - @m_vanschijndel, Ruben Hilkens - @rhlkns
+            FASHIONCLASH Festival 2024 - @fashionclash_festival` },
+          
         ],
       },
       {
         parentId: "performances",
         id: "Hartwerk-BOM-2024",
         description: "Buurt Opera Malperthuis by Opera Zuid",
-        mainImage: "/assets/images/performances/martin-standalone.jpg",
+        mainImage: "https://i.pinimg.com/736x/33/6f/66/336f66dd680c2d0a274508f00900db82.jpg",
         images: [
-          { src: "/assets/images/performances/martin-standalone.jpg" },
-          { src: "/assets/images/performances/all-reading.jpg" },
-          { src: "/assets/images/performances/bricks.jpg" },
-          { src: "/assets/images/performances/IMG_2046.jpeg" },
-          { src: "/assets/images/performances/martin-sweater.jpg" },
-          { src: "/assets/images/performances/all-bowing.jpeg" },
+          { src: "https://i.pinimg.com/736x/33/6f/66/336f66dd680c2d0a274508f00900db82.jpg" },
+          { src: "https://i.pinimg.com/736x/47/67/be/4767beca9e86889ea62bd6ecb3a2c643.jpg" },
+          { src: "https://i.pinimg.com/736x/6b/6d/30/6b6d301ca1ec498efaecc5f69a4a717d.jpg" },
+          { src: "https://i.pinimg.com/736x/88/64/6e/88646eae06356caebbb64f699b3f36fb.jpg" },
+          { src: "https://i.pinimg.com/736x/5c/9f/63/5c9f6370b4edfdd2e2e79eee10faa1b4.jpg" },
+          { src: "https://i.pinimg.com/736x/9b/63/4b/9b634b00e3e10e2f9da3e713dacf57b6.jpg" },
         ]
       },
       {
         parentId: "performances",
         id: "mensen-dragen-mensen",
         description: "Mensen Dragen Mensen - Heiligdomsvaart Maastricht 2025 - Fashion Clash",
-        mainImage: "/assets/images/performances/m-d-m.jpg",
+        mainImage: "https://i.pinimg.com/736x/63/b9/02/63b9023caab86dfb96d2f4fec55dad5b.jpg",
         images: [
-          { src: "/assets/images/performances/m-d-m.jpg" },
-          { src: "/assets/images/performances/flag.jpeg" },
-          { src: "/assets/images/performances/carry-me.jpg" },
-
+          { src: "https://i.pinimg.com/736x/fc/91/9c/fc919ccd0e7187907ced894234b0c079.jpg" },
+          { src: "https://i.pinimg.com/736x/f0/5f/0a/f05f0af5839cca81de6739c7626db029.jpg" },
+          { src: "https://i.pinimg.com/736x/63/b9/02/63b9023caab86dfb96d2f4fec55dad5b.jpg" },
+          { src: "https://i.pinimg.com/736x/6e/91/6d/6e916de61ef6827a7ed70ccafb3e71e7.jpg" },
+          { src: "https://i.pinimg.com/736x/a5/80/32/a580324e3a7722502ab3a51eb8a8e339.jpg" },
+          { src: "https://i.pinimg.com/736x/7b/8d/ae/7b8dae69cd9423f557ad947a4cf4bc43.jpg" },
+          { src: "https://i.pinimg.com/736x/b5/8d/8e/b58d8e34f12b1715f7ba6faea3572408.jpg" },
+          { src: "https://i.pinimg.com/736x/33/24/21/3324210901986b07903d13945c7fdf8e.jpg" },
+          { src: "https://i.pinimg.com/736x/75/94/7c/75947c09152a9a505bb73d3ed251cee4.jpg" },
+          { src: "https://i.pinimg.com/736x/24/81/33/24813309d71a65a8f441d7581fc34713.jpg" },
+          { src: "https://i.pinimg.com/736x/c4/a2/a7/c4a2a7d63fb45dc6d49eb257575cc9db.jpg" },
+          { src: "https://i.pinimg.com/736x/7c/1b/40/7c1b40d97fcb0bfe92084c8442157d21.jpg" },
         ]
       }
     ]
