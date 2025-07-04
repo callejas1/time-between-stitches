@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { motion } from 'framer-motion';
 import projects from "../content/projects";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -27,7 +28,12 @@ function Project() {
   };
 
   return (
-    <div className="project-page">
+    <motion.div
+      className="project-page"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+  >
       <Breadcrumb />
       <header className="project-header">
         <h1 className="project-title">{project.title}</h1>
@@ -55,7 +61,7 @@ function Project() {
       {currentDescription && (
         <p className="image-description">{currentDescription}</p>
       )}
-    </div>
+    </motion.div>
   );
 }
 

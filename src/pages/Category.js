@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { useParams, Link } from "react-router-dom";
 import projects from "../content/projects";
 import "../styles/category.css";
@@ -21,7 +22,13 @@ function Category() {
   };
 
   return (
-    <div className="category-page">
+    <motion.div
+    className="category-page"
+    initial={{ opacity: 0, y: 50 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5, ease: "easeOut" }}
+  >
+    {/* <div className="category-page"> */}
       <Breadcrumb />
       <header className="category-header">
         <h1 className="project-title">{project.title}</h1>
@@ -52,7 +59,7 @@ function Category() {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
