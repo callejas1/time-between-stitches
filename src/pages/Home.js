@@ -29,7 +29,7 @@ function Home() {
               href={`/${project.id}`} 
               key={`${project.id}-${index}`}
               className={`project-card project-card-${index}`}
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1.02 }}
             >
               <div
                 className="project-background"
