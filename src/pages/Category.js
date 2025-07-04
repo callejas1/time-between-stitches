@@ -28,7 +28,6 @@ function Category() {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.5, ease: "easeOut" }}
   >
-    {/* <div className="category-page"> */}
       <Breadcrumb />
       <header className="category-header">
         <h1 className="project-title">{project.title}</h1>
