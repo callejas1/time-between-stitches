@@ -9,8 +9,8 @@
 }
 
 .bio-page {
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
     margin: 2rem;
 }
 
@@ -75,5 +75,11 @@
 
     .bio-portrait .bio-image {
         width: 100%;
+    }
+
+    .bio-name {
+        margin: 0;
+        font-size: 72px;
+        line-height: 1.2;
     }
 }
