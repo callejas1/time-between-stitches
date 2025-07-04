@@ -29,7 +29,7 @@
 }
 
 .image-tiles-container {
-    cursor: pointer;
+    cursor: zoom-in;
     margin: 1rem;
 }
 
