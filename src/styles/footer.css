@@ -89,15 +89,18 @@
     margin: 0;
 }
 
+.footer-city {
+    margin-left: 0;
+    color: #fff;
+}
+
 .footer-right-info {
     color: #fff;
     display: flex;
     gap: 2rem;
     align-items: center;
     justify-content: flex-end;
-
     flex-wrap: wrap;
-    /* Prevents overflow for small screens */
 }
 
 /* Responsive Design for Footer */

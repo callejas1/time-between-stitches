@@ -26,10 +26,11 @@ function Footer() {
                             <HiOutlineMail className='footer-logos email-logo' />
                         </a>
                     </div>
-                    <p className='footer-info name'>{artist.name}</p>
+                    <p className='footer-info name'>{ artist.name }</p>
+                    <div className='footer-city'><p className='footer-info'>Maastricht, NL</p></div>
+
                     <div className='footer-right-info'>
-                        <p className='footer-info'>Maastricht, NL</p>
-                        <p className='footer-info'>Created By Yos Callejas &copy; {new Date().getFullYear()}</p>
+                        <p className='footer-info'>Developed by &copy; Yos Callejas {new Date().getFullYear()}</p>
                     </div>
                 </div>
             </div>
