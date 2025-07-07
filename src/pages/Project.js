@@ -54,7 +54,8 @@ function Project() {
       className="project-page"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
+      transition={ { duration: 0.5, ease: "easeOut" }
+      }
     >
       <Breadcrumb />
       <header className="project-header">
@@ -102,7 +103,8 @@ function Project() {
                 loop={true}
                 pagination={{ clickable: true }}
                 onSlideChange={(swiper) => setCurrentSlideIndex(swiper.activeIndex)}
-                initialSlide={currentSlideIndex} // Jump to the clicked image in Swiper
+                initialSlide={ currentSlideIndex } // Jump to the clicked image in Swiper
+                autoHeight
             >
               {subproject.images.map((image, idx) => (
                 <SwiperSlide key={idx}>
